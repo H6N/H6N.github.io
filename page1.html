@@ -59,7 +59,7 @@ body {
 //     return d3.format(',.02f')(d) + 'M';
 // }
 
-var map = d3.geomap.choropleth()
+var worldmap = d3.geomap.choropleth()
     .geofile('countries.json')
     //https://github.com/yaph/d3-geomap/blob/master/src/topojson/world/countries.json
     //.colors('red')
@@ -72,7 +72,7 @@ var map = d3.geomap.choropleth()
 d3.csv('gtd_country_events_total.csv', function(error, data) {
     d3.select('#map')
         .datum(data)
-        .call(map.draw, map);
+        .call(map.draw, worldmap);
 });
 
 // d3.csv('gtd_country_events_total.csv', function(error, data) {
