@@ -69,17 +69,17 @@ var map = d3.geomap.choropleth()
     //.legend(true)
     //.unitId('country code');
 
-// d3.csv('gtd_country_events_total.csv', function(error, data) {
-//     d3.select('#map')
-//         .datum(data)
-//         .call(map.draw, map);
-// });
-
 d3.csv('gtd_country_events_total.csv', function(error, data) {
-    map.draw(d3.select("#map").datum(data));
+    d3.select('#map')
+        .datum(data)
+        .call(map.draw, map);
 });
-d3.select('#map-select').on('change', function() {
-    map.column(this.value).update()
-});
+
+// d3.csv('gtd_country_events_total.csv', function(error, data) {
+//     map.draw(d3.select("#map").datum(data));
+// });
+// d3.select('#map-select').on('change', function() {
+//     map.column(this.value).update()
+// });
 
 </script>
