@@ -1,0 +1,192 @@
+country code,event count,country text
+AFG,9690,Afghanistan
+AGO,539,Angola
+ALB,77,Albania
+AND,1,Andorra
+ARE,22,United Arab Emirates
+ARG,804,Argentina
+ARM,22,Armenia
+ATG,1,Antigua and Barbuda
+AUS,88,Australia
+AUT,106,Austria
+AZE,45,Azerbaijan
+BDI,504,Burundi
+BEL,142,Belgium
+BEN,8,Benin
+BFA,9,Burkina Faso
+BGD,1513,Bangladesh
+BGR,51,Bulgaria
+BHR,182,Bahrain
+BHS,5,Bahamas
+BIH,159,Bosnia and Herzegovina
+BLR,13,Belarus
+BLZ,8,Belize
+BOL,314,Bolivia
+BRA,267,Brazil
+BRB,3,Barbados
+BRN,1,Brunei Darussalam
+BTN,6,Bhutan
+BWA,10,Botswana
+CAF,202,Central African Republic
+CAN,76,Canada
+CHE,107,Switzerland
+CHL,2334,Chile
+CHN,242,China
+CMR,180,Cameroon
+COD,459,Congo (the Democratic Republic of the)
+COG,24,Congo (Brazzaville)
+COL,8077,Colombia
+COM,5,Comoros
+CRI,67,Costa Rica
+CUB,30,Cuba
+CYP,130,Cyprus
+CZE,37,Czech Republic
+DEU,1190,Germany
+DJI,21,Djibouti
+DMA,3,Dominica
+DNK,40,Denmark
+DOM,89,Dominican Republic
+DZA,2720,Algeria
+ECU,215,Ecuador
+EGY,1799,Egypt
+ERI,10,Eritrea
+ESH,5,Western Sahara
+ESP,3239,Spain
+EST,16,Estonia
+ETH,150,Ethiopia
+FIN,15,Finland
+FJI,17,Fiji
+FLK,1,Falkland Islands (Malvinas)
+FRA,2617,France
+GAB,4,Gabon
+GBR,4992,United Kingdom
+GDR,38,East Germany
+GEO,212,Georgia
+GHA,18,Ghana
+GIB,1,Gibraltar
+GIN,24,Guinea
+GLP,56,Guadeloupe
+GMB,3,Gambia
+GNB,9,Guinea-Bissau
+GNQ,2,Equatorial Guinea
+GRC,1200,Greece
+GRD,5,Grenada
+GTM,2050,Guatemala
+GUF,7,French Guiana
+GUY,25,Guyana
+HKG,26,"Hong Kong, SAR China"
+HND,321,Honduras
+HRV,57,Croatia
+HTI,212,Haiti
+HUN,45,Hungary
+IDN,714,Indonesia
+IND,9940,India
+IRL,274,Ireland
+IRN,667,"Iran, Islamic Republic of"
+IRQ,18770,Iraq
+ISL,4,Iceland
+ISR,2085,Israel
+ITA,1545,Italy
+JAM,34,Jamaica
+JOR,92,Jordan
+JPN,400,Japan
+KAZ,24,Kazakhstan
+KEN,517,Kenya
+KGZ,28,Kyrgyzstan
+KHM,258,Cambodia
+KNA,2,Saint Kitts and Nevis
+KOR,37,Korea (south)
+KWT,74,Kuwait
+LBN,2413,Lebanon
+LBR,33,Liberia
+LBY,1643,Libya
+LCA,1,Saint Lucia
+LKA,2982,Sri Lanka
+LSO,29,Lesotho
+LTU,8,Lithuania
+LUX,16,Luxembourg
+LVA,16,Latvia
+MAC,33,"Macao, SAR China"
+MAR,36,Morocco
+MDA,20,Moldova
+MDG,26,Madagascar
+MDV,17,Maldives
+MEX,499,Mexico
+MKD,117,"Macedonia, Republic of"
+MLI,319,Mali
+MLT,20,Malta
+MMR,347,Myanmar
+MNE,5,Montenegro
+MOZ,272,Mozambique
+MRT,18,Mauritania
+MTQ,12,Martinique
+MUS,2,Mauritius
+MWI,4,Malawi
+MYS,76,Malaysia
+NAM,151,Namibia
+NCL,31,New Caledonia
+NER,116,Niger
+NGA,2888,Nigeria
+NIC,1970,Nicaragua
+NLD,121,Netherlands
+NOR,18,Norway
+NPL,923,Nepal
+NZL,18,New Zealand
+PAK,12768,Pakistan
+PAN,126,Panama
+PER,6085,Peru
+PHL,5576,Philippines
+PNG,81,Papua New Guinea
+POL,34,Poland
+PRK,1,Korea (North)
+PRT,139,Portugal
+PRY,89,Paraguay
+PSE,1990,"Palestine, State of"
+PYF,3,French Polynesia
+QAT,7,Qatar
+ROU,6,Romania
+RUS,2182,Russian Federation
+RWA,156,Rwanda
+SAU,193,Saudi Arabia
+SDN,688,Sudan
+SEN,118,Senegal
+SGP,7,Singapore
+SLB,4,Solomon Islands
+SLE,97,Sierra Leone
+SLV,5320,El Salvador
+SOM,2890,Somalia
+SRB,191,Serbia
+SRB,214,Serbia
+SSD,111,South Sudan
+SUR,66,Suriname
+SVK,17,Slovakia
+SVN,6,Slovenia
+SWE,102,Sweden
+SWZ,16,Swaziland
+SYC,2,Seychelles
+SYR,1468,Syrian Arab Republic (Syria)
+TCD,80,Chad
+TGO,48,Togo
+THA,3338,Thailand
+TJK,184,Tajikistan
+TKM,2,Turkmenistan
+TLS,10,Timor-Leste
+TTO,22,Trinidad and Tobago
+TUN,92,Tunisia
+TUR,3557,Turkey
+TWN,47,"Taiwan, Republic of China"
+TZA,50,"Tanzania, United Republic of"
+UGA,366,Uganda
+UKR,1583,Ukraine
+URY,75,Uruguay
+USA,2693,United States of America
+UZB,21,Uzbekistan
+VAT,1,Holy See (Vatican City State)
+VEN,269,Venezuela (Bolivarian Republic)
+VNM,11,Viet Nam
+VUT,2,Vanuatu
+WLF,1,Wallis and Futuna Islands
+YEM,2606,Yemen
+ZAF,1957,South Africa
+ZMB,60,Zambia
+ZWE,98,Zimbabwe
