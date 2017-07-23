@@ -1,5 +1,9 @@
 <!DOCTYPE html>
+<head>
 <meta charset="utf-8">
+<title> Where in the world have terrorists attacked? </title>
+<link href="../dist/css/d3.geomap.css" rel="stylesheet">
+
 <style>
 
 body {
@@ -18,15 +22,9 @@ body {
 }
 
 </style>
-<body>
-<link href="/d3-geomap/css/d3.geomap.css" rel="stylesheet">
-<script src="/d3-geomap/vendor/d3.geomap.dependencies.min.js"></script>
-<script src="/d3-geomap/js/d3.geomap.min.js"></script>
-<script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="http://d3js.org/d3.geo.projection.v0.min.js"></script>
-<script src="http://d3js.org/topojson.v1.min.js"></script>
-<script src="http://d3js.org/colorbrewer.v1.min.js"></script>
+</head>
 
+<body>
 
 <div class="nav">
   <div class="container">
@@ -42,16 +40,18 @@ body {
   </div>
 </div>
 
-
-
-
-<div id="chart">
-<p>
-Where in the world have terrorists attacked?
-</p>
-</div>
-
 <div id="map"></div>
+<p>Data source: <a href="https://www.start.umd.edu/gtd/">Global Terrorism Database (GTD)</a></p>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script src="http://d3js.org/d3.geo.projection.v0.min.js"></script>
+<script src="http://d3js.org/colorbrewer.v1.min.js"></script>
+<script src="/d3-geomap/vendor/d3.geomap.dependencies.min.js"></script>
+<script src="/d3-geomap/js/d3.geomap.min.js"></script>
+<script src="../node_modules/d3-geo-projection/build/d3-geo-projection.js"></script>
+<script src="../node_modules/topojson/dist/topojson.js"></script>
+<script src="../dist/js/d3.geomap.js"></script>
 
 </body>
 
@@ -63,18 +63,26 @@ Where in the world have terrorists attacked?
 // }
 
 var map = d3.geomap.choropleth()
-    .geofile('/d3-geomap/topojson/world/countries.json')
-    .colors('red')
+    .geofile('countries.json')
+    //https://github.com/yaph/d3-geomap/blob/master/src/topojson/world/countries.json
+    //.colors('red')
     //.colors(colorbrewer.YlGnBu[9])
     .column('event count')
-    .format(format)
-    .legend(true)
-    .unitId('country code');
+    //.format(format)
+    //.legend(true)
+    //.unitId('country code');
+
+// d3.csv('gtd_country_events_total.csv', function(error, data) {
+//     d3.select('#map')
+//         .datum(data)
+//         .call(map.draw, map);
+// });
 
 d3.csv('gtd_country_events_total.csv', function(error, data) {
-    d3.select('#map')
-        .datum(data)
-        .call(map.draw, map);
+    map.draw(d3.select("#map").datum(data));
+});
+d3.select('#map-select').on('change', function() {
+    map.column(this.value).update()
 });
 
 </script>
