@@ -64,9 +64,10 @@ Where in the world have terrorists attacked?
 
 var map = d3.geomap.choropleth()
     .geofile('/d3-geomap/topojson/world/countries.json')
-    .colors(colorbrewer.YlGnBu[9])
+    .colors('red')
+    //.colors(colorbrewer.YlGnBu[9])
     .column('event count')
-    //.format(format)
+    .format(format)
     .legend(true)
     .unitId('country code');
 
