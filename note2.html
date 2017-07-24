@@ -196,15 +196,15 @@ function ready (error, data, capitals, gtd) { //remove capitals
 
             //*** update tooltip for country GTD data
 
-            // .on("mouseover", function() { tooltip.style("display", null); })
-            // .on("mouseout", function() { tooltip.style("display", "none"); })
-            // .on("mousemove", function(d) {
-            //   console.log(d);
-            //   var xPosition = d3.mouse(this)[0] + 5;
-            //   var yPosition = d3.mouse(this)[1] - 5;
-            //   tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
-            //   tooltip.select("text").text(d.country); // *** add attacks, killed, wounded
-            // });
+            .on("mouseover", function() { tooltip.style("display", null); })
+            .on("mouseout", function() { tooltip.style("display", "none"); })
+            .on("mousemove", function(d) {
+              console.log(d);
+              var xPosition = d3.mouse(this)[0] + 5;
+              var yPosition = d3.mouse(this)[1] - 5;
+              tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+              tooltip.select("text").text(d.country); // *** add attacks, killed, wounded
+            });
 
             //*** update for GTD tooltip
 
