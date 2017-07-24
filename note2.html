@@ -55,11 +55,13 @@ d3.queue()
   .defer(d3.json, "world-countries.json")
   .await(ready)
 
-// create projection
+// create projection (from long/lat globe to flat screen)
+  var projection = d3.geoMercator()
+    .translate( [ width / 2, height / 2 ])
 
-
-// create path
-
+// create a geopath (all coordinated form a shape)
+  var path = d3.geoPath()
+    .projection(projection)
 
 function ready (error, data) {
   console.log(data)
@@ -71,7 +73,7 @@ function ready (error, data) {
     .data(countries)
     .enter().append("path")
     .attr("class", "country")
-    
+    .attr("d", path)
 
 }
 
