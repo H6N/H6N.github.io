@@ -174,10 +174,7 @@ function ready (error, data, capitals, gtd) { //remove capitals
              .data(gtd)
              .enter().append("circle")
              .attr("r", 4)
-             .attr("r", function(d) {
-               var size = ceil (d.attacks / 1000)
-               return size
-             })
+             .attr("r", function(d){ return ceil(d.attacks / 1000); })
              .attr("fill", "red")
             .attr("cx", function(d) {
               var coords = projection([d.long, d.lat])
