@@ -27,7 +27,7 @@
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="https://d3js.org/topojson.v1.min.js"></script>
 
-    <div style="color:#851735">
+    <div style="color: crimson">
       <h3> Where in the world have terrorists attacked? </h3>
       <p> Point to a cirle to see additional details. </p>
     </div>
@@ -102,7 +102,7 @@ function ready (error, data, gtd) {
           return size;
         }
     })
-    .attr("fill", "#851735")
+    .attr("fill", "crimson")
     .attr("cx", function(d) {
         var coords = projection([d.long, d.lat])
         return coords[0];
