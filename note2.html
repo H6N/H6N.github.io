@@ -61,6 +61,7 @@ var svg = d3.select("#map")
 
 d3.queue()
   .defer(d3.json, "world-countries.json")
+  .defer(d3.csv, "capitals.csv")
   .await(ready)
 
 // create projection (from long/lat globe to flat screen)
@@ -72,7 +73,7 @@ d3.queue()
   var path = d3.geoPath()
     .projection(projection)
 
-function ready (error, data) {
+function ready (error, data, capitals) {
   console.log(data)
   var countries = topojson.feature(data, data.objects.countries1).features
 
@@ -89,6 +90,12 @@ function ready (error, data) {
     .on('mouseout', function(d){
       d3.select(this).classed("selected", false)
     })
+
+// add capitals: get x/y coord from long/lat + projection
+    console.log(capitals)
+
+
+
 }
 
 </script>
