@@ -76,6 +76,25 @@ d3.queue()
   var path = d3.geoPath()
     .projection(projection)
 
+//*** tooltip
+  var tooltip = svg.append("g")
+    .attr("class", "tooltip")
+    .style("display", "none");
+
+  tooltip.append("rect")
+    .attr("width", 60)
+    .attr("height", 20)
+    .attr("fill", "white")
+    .style("opacity", 0.5);
+
+  tooltip.append("text")
+    .attr("x", 30)
+    .attr("dy", "1.2em")
+    .style("text-anchor", "middle")
+    .attr("font-size", "10px")
+    .attr("font-weight", "bold");
+//*** tooltip
+
 function ready (error, data, capitals) {
   var countries = topojson.feature(data, data.objects.countries1).features
 
@@ -105,6 +124,19 @@ function ready (error, data, capitals) {
         var coords = projection( [d.long, d.lat])
         return coords[1];
       })
+      
+      //*** tooltip
+      .on("mouseover", function() { tooltip.style("display", null); })
+      .on("mouseout", function() { tooltip.style("display", "none"); })
+      .on("mousemove", function(d) {
+        console.log(d);
+        var xPosition = d3.mouse(this)[0] - 5;
+        var yPosition = d3.mouse(this)[1] - 5;
+        tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+        tooltip.select("text").text(d[1]-d[0]);
+      });
+      //*** tooltip
+
     svg.selectAll(".city-label")
       .data(capitals)
       .enter().append("text")
@@ -122,6 +154,8 @@ function ready (error, data, capitals) {
       })
       .attr("dx", 5) //offset the text right from the dot
       .attr("dy", 2) //offset the text down from the dot
+
+
 
 }
 
