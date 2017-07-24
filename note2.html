@@ -122,14 +122,14 @@ function ready (error, data, gtd) {
         .style("display", "none");
 
     tooltip.append("rect")
-        .attr("width", 60)
+        .attr("width", 400)
         .attr("height", 20)
         .attr("fill", "white")
         .style("opacity", 0.5);
 
     tooltip.append("text")
         .attr("x", 0)
-        .attr("dy", "2em")
+        .attr("dy", -10)
         .style("text-anchor", "middle")
         .attr("font-size", "10px")
         .attr("font-weight", "bold");
