@@ -183,14 +183,12 @@ svg {
 )
 
 
-
-
-d3.csv('gtd_country_events_total.csv', function(error, data) {
-    console.log(data);
-    d3.select('#map')
-        .datum(data)
-        .call(map.draw, worldmap);
-});
+// d3.csv('gtd_country_events_total.csv', function(error, data) {
+//     console.log(data);
+//     d3.select('#map')
+//         .datum(data)
+//         .call(map.draw, worldmap);
+// });
 
 // d3.csv('gtd_country_events_total.csv', function(error, data) {
 //     map.draw(d3.select("#map").datum(data));
