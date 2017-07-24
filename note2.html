@@ -98,9 +98,16 @@ function ready (error, data, capitals) {
       .data(capitals)
       .enter().append("circle")
       .attr("r", 2)
-      .attr("cx", 10)
-      .attr("cy", 10)
-
+      .attr("cx", function(d) {
+        var coords = projection( [d.long, d.lat])
+        console.log(coords)
+        return coords[0];
+      })
+      .attr("cy", function(d) {
+        var coords = projection( [d.long, d.lat])
+        console.log(coords)
+        return coords[1];
+      })
 
 
 }
