@@ -122,10 +122,11 @@ svg {
         .attr("class", "country")
         .attr("d", path)
         //.attr("fill", "#cccccc") //light gray, or write a css for this
-        .on('click', function(d)) {
+        .on('click', function(d) {
           //console.log(d)
           //d3.select(this).attr("fill", "yellow") does not work - overwritten by css
           d3.select(this).classed("clicked", true)
+        })
         .on('mouseover', function(d) {
           d3.select(this).classed("selected", true)
         })
