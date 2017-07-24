@@ -203,7 +203,8 @@ function ready (error, data, capitals, gtd) { //remove capitals
               var xPosition = d3.mouse(this)[0] + 5;
               var yPosition = d3.mouse(this)[1] - 5;
               tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
-              tooltip.select("text").text(d.country); // *** add attacks, killed, wounded
+              tooltip.select("text").text("Country: " +  d.country +
+              ", Attacks: " + d.attacks + ", Killed: " + d.killed + ", Wounded: " + d.wounded); // *** add attacks, killed, wounded
             });
 
             //*** update for GTD tooltip
