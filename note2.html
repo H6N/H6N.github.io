@@ -161,20 +161,19 @@ function ready (error, data, capitals, gtd) { //remove capitals
       //*** tooltip
 
     // add GTD data, location based on average lat,long for events in each country
-    console.log(gtd);
     // *** update for GTD
     // *** remove city-label from html style
 
         // svg.selectAll(".gtd-label")
-        //   .data(capitals)
+        //   .data(gtd)
         //   .enter().append("text")
         //   .attr("class", "gtd-label")
-        //   svg.selectAll(".gtd-circle")
-        //     .data(capitals)
-        //     .enter().append("circle")
-        //     .attr("r", 2)
-        //     .attr("cx",20) //replace will following function
-        //     .attr("cy",20) //replace will following function
+        svg.selectAll(".gtd-circle")
+             .data(gtd)
+             .enter().append("circle")
+             .attr("r", 4)
+             .attr("cx",20) //replace will following function
+             .attr("cy",20) //replace will following function
             // .attr("cx", function(d) {
             //   var coords = projection( [d.long, d.lat])
             //   return coords[0];
