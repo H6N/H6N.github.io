@@ -80,6 +80,9 @@ function ready (error, data) {
     .enter().append("path")
     .attr("class", "country")
     .attr("d", path)
+    .on('click', function(d){
+      d3.select(this).attr("fill", "yellow")
+    })
 
 }
 
