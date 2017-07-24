@@ -124,7 +124,7 @@ function ready (error, data, capitals) {
         var coords = projection( [d.long, d.lat])
         return coords[1];
       })
-      
+
       //*** tooltip
       .on("mouseover", function() { tooltip.style("display", null); })
       .on("mouseout", function() { tooltip.style("display", "none"); })
@@ -133,7 +133,7 @@ function ready (error, data, capitals) {
         var xPosition = d3.mouse(this)[0] - 5;
         var yPosition = d3.mouse(this)[1] - 5;
         tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
-        tooltip.select("text").text(d[1]-d[0]);
+        tooltip.select("text").text(d.name);
       });
       //*** tooltip
 
