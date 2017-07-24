@@ -12,10 +12,13 @@
     svg {
       background: white;
     }
-    .country{
+    .country {
       fill: #cccccc;
       stroke: #333333;
       stroke-width: 0.5;
+    }
+    .selected {
+      fill: yellow;
     }
     </style>
   </head>
@@ -80,10 +83,12 @@ function ready (error, data) {
     .enter().append("path")
     .attr("class", "country")
     .attr("d", path)
-    .on('click', function(d){
-      d3.select(this).attr("fill", "yellow")
+    .on('mouseover', function(d){
+      d3.select(this).classed("selected", true)
     })
-
+    .on('mouseout', function(d){
+      d3.select(this).classed("selected", false)
+    })
 }
 
 </script>
