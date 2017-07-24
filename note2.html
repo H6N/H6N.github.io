@@ -112,7 +112,6 @@ function ready (error, data, gtd) {
         var xPosition = d3.mouse(this)[0] + 5;
         var yPosition = d3.mouse(this)[1] - 5;
         tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
-        tooltip.select("rect");
         tooltip.select("text").text("Country: " +  d.country +
         ", Attacks: " + d.attacks + ", Killed: " + d.killed + ", Wounded: " + d.wounded);
 
@@ -129,12 +128,12 @@ function ready (error, data, gtd) {
         .style("text-anchor", "middle")
         .attr("font-size", "10px")
         .attr("font-weight", "bold");
-
-    tooltip.append("rect")
-        .attr("width", 400)
-        .attr("height", 20)
-        .attr("fill", "white")
-        .style("opacity", 0.5);
+    // 
+    // tooltip.append("rect")
+    //     .attr("width", 400)
+    //     .attr("height", 20)
+    //     .attr("fill", "white")
+    //     .style("opacity", 0.5);
 
 
 
