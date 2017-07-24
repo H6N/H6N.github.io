@@ -1,43 +1,40 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<style>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+    * {
+      font-family: "Helvetica Neue";
+    }
+    p {
+      font-size: 0.85em
+    }
+    svg {
+      background: #efefef
+    }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
 
-body {
-  font: 12px sans-serif;
-}
+    <div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+          <li><a href="note1.html">Name</a></li>
+          <li><a href="note2.html">Browse</a></li>
+        </ul>
+        <ul class="pull-right">
+          <li><a href="page1.html">Sign Up</a></li>
+          <li><a href="page2.html">Log In</a></li>
+          <li><a href="page3.html">Help</a></li>
+        </ul>
+      </div>
+    </div>
 
-.axis path,
-.axis line {
-  fill: none;
-  stroke: none;
-  shape-rendering: crispEdges;
-}
-
-.browser text {
-  text-anchor: end;
-}
-
-</style>
-<body>
-
-<script src="https://d3js.org/d3.v4.min.js"></script>
-
-
-<div class="nav">
-  <div class="container">
-    <ul class="pull-left">
-      <li><a href="note1.html">Name</a></li>
-      <li><a href="note2.html">Browse</a></li>
-    </ul>
-    <ul class="pull-right">
-      <li><a href="page1.html">Sign Up</a></li>
-      <li><a href="page2.html">Log In</a></li>
-      <li><a href="page3.html">Help</a></li>
-    </ul>
-  </div>
-</div>
-
-</body>
+  </body>
+</html>
 
 <script>
 
@@ -66,7 +63,7 @@ d3.queue()
 
 function ready (error, data) {
 
-  
+
 }
 
 </script>
