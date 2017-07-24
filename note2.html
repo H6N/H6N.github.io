@@ -20,9 +20,7 @@
     .gtd-label {
       font-size: 10px;
     }
-    .tooltip {
-      fill: white;
-    }    </style>
+    </style>
   </head>
   <body>
     <div id="map"></div>
@@ -126,8 +124,7 @@ function ready (error, data, gtd) {
     tooltip.append("rect")
         .attr("width", 400)
         .attr("height", 20)
-        //.attr("x", function(d) { return xPosition - 200; })
-        //.attr("y", function(d) { return yPosition - 10; })
+        .attr("transform", "translate(" + xPosition + "," + yPosition + ")")
         .attr("fill", "white")
         .style("opacity", 0.5);
 
