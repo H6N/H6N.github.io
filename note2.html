@@ -94,7 +94,7 @@ function ready (error, data, capitals) {
 // add capitals: get x/y coord from long/lat + projection
     console.log(capitals)
 
-    svg.selectAll("city-circle")
+    svg.selectAll(".city-circle")
       .data(capitals)
       .enter().append("circle")
       .attr("r", 2)
@@ -108,8 +108,21 @@ function ready (error, data, capitals) {
         console.log(coords)
         return coords[1];
       })
-
-
+    svg.selectAll(".city-label")
+      .data(capitals)
+      .enter().append("text")
+      .attr("class", "city-label")
+      .attr("x", function(d) {
+        var coords = projection( [d.long, d.lat])
+        console.log(coords)
+        return coords[0];
+      })
+      .attr("y", function(d) {
+        var coords = projection( [d.long, d.lat])
+        console.log(coords)
+        return coords[1];
+      })
+      .text("This is a capital")
 }
 
 </script>
