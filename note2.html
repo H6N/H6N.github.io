@@ -76,24 +76,6 @@ d3.queue()
   var path = d3.geoPath()
     .projection(projection)
 
-//*** tooltip
-  var tooltip = svg.append("g")
-    .attr("class", "tooltip")
-    .style("display", "none");
-
-  tooltip.append("rect")
-    .attr("width", 60)
-    .attr("height", 20)
-    .attr("fill", "white")
-    .style("opacity", 0.5);
-
-  tooltip.append("text")
-    .attr("x", 30)
-    .attr("dy", "1.2em")
-    .style("text-anchor", "middle")
-    .attr("font-size", "10px")
-    .attr("font-weight", "bold");
-//*** tooltip
 
 function ready (error, data, capitals) {
   var countries = topojson.feature(data, data.objects.countries1).features
@@ -110,6 +92,25 @@ function ready (error, data, capitals) {
       d3.select(this).classed("selected", false)
     })
 
+    //*** tooltip
+      var tooltip = svg.append("g")
+        .attr("class", "tooltip")
+        .style("display", "none");
+
+      tooltip.append("rect")
+        .attr("width", 60)
+        .attr("height", 20)
+        .attr("fill", "white")
+        .style("opacity", 0.5);
+
+      tooltip.append("text")
+        .attr("x", 30)
+        .attr("dy", "1.2em")
+        .style("text-anchor", "middle")
+        .attr("font-size", "10px")
+        .attr("font-weight", "bold");
+    //*** tooltip
+    
 // add capitals: get x/y coord from long/lat + projection
 
     svg.selectAll(".city-circle")
@@ -130,7 +131,7 @@ function ready (error, data, capitals) {
       .on("mouseout", function() { tooltip.style("display", "none"); })
       .on("mousemove", function(d) {
         console.log(d);
-        var xPosition = d3.mouse(this)[0] - 5;
+        var xPosition = d3.mouse(this)[0] + 5;
         var yPosition = d3.mouse(this)[1] - 5;
         tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
         tooltip.select("text").text(d.name);
@@ -141,19 +142,19 @@ function ready (error, data, capitals) {
       .data(capitals)
       .enter().append("text")
       .attr("class", "city-label")
-      .attr("x", function(d) {
-        var coords = projection( [d.long, d.lat])
-        return coords[0];
-      })
-      .attr("y", function(d) {
-        var coords = projection( [d.long, d.lat])
-        return coords[1];
-      })
-      .text(function(d) {
-        return d.name
-      })
-      .attr("dx", 5) //offset the text right from the dot
-      .attr("dy", 2) //offset the text down from the dot
+      // .attr("x", function(d) {
+      //   var coords = projection( [d.long, d.lat])
+      //   return coords[0];
+      // })
+      // .attr("y", function(d) {
+      //   var coords = projection( [d.long, d.lat])
+      //   return coords[1];
+      // })
+      // .text(function(d) {
+      //   return d.name
+      // })
+      // .attr("dx", 5) //offset the text right from the dot
+      // .attr("dy", 2) //offset the text down from the dot
 
 
 
