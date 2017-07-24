@@ -20,6 +20,9 @@
     .selected {
       fill: yellow;
     }
+    .city-label {
+      font-size: 10px;
+    }
     </style>
   </head>
   <body>
@@ -122,7 +125,13 @@ function ready (error, data, capitals) {
         console.log(coords)
         return coords[1];
       })
-      .text("This is a capital")
+      .text(function(d) {
+        return d.name
+      })
+      .attr("dx", 5) //offset the text right from the dot
+      .attr("dy", 2) //offset the text down from the dot
+
+
 }
 
 </script>
