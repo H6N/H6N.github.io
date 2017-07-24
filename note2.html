@@ -66,6 +66,13 @@ function ready (error, data) {
   var countries = topojson.feature(data, data.objects.countries1).features
 
   console.log(countries)
+
+  svg.selectAll(".country")
+    .data(countries)
+    .enter().append("path")
+    .attr("class", "country")
+    
+
 }
 
 </script>
