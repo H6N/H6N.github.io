@@ -113,6 +113,25 @@ function ready (error, data, capitals) {
 
 // add capitals: get x/y coord from long/lat + projection
 
+    svg.selectAll(".city-label")
+      .data(capitals)
+      .enter().append("text")
+      .attr("class", "city-label")
+  // .attr("x", function(d) {
+  //   var coords = projection( [d.long, d.lat])
+  //   return coords[0];
+  // })
+  // .attr("y", function(d) {
+  //   var coords = projection( [d.long, d.lat])
+  //   return coords[1];
+  // })
+  // .text(function(d) {
+  //   return d.name
+  // })
+  // .attr("dx", 5) //offset the text right from the dot
+  // .attr("dy", 2) //offset the text down from the dot
+
+
     svg.selectAll(".city-circle")
       .data(capitals)
       .enter().append("circle")
@@ -132,29 +151,13 @@ function ready (error, data, capitals) {
       .on("mousemove", function(d) {
         console.log(d);
         var xPosition = d3.mouse(this)[0] + 5;
-        var yPosition = d3.mouse(this)[1] - 10;
+        var yPosition = d3.mouse(this)[1] - 5;
         tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
         tooltip.select("text").text(d.name);
       });
       //*** tooltip
 
-    svg.selectAll(".city-label")
-      .data(capitals)
-      .enter().append("text")
-      .attr("class", "city-label")
-      // .attr("x", function(d) {
-      //   var coords = projection( [d.long, d.lat])
-      //   return coords[0];
-      // })
-      // .attr("y", function(d) {
-      //   var coords = projection( [d.long, d.lat])
-      //   return coords[1];
-      // })
-      // .text(function(d) {
-      //   return d.name
-      // })
-      // .attr("dx", 5) //offset the text right from the dot
-      // .attr("dy", 2) //offset the text down from the dot
+
 
 
 
