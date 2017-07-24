@@ -63,7 +63,9 @@ d3.queue()
 
 function ready (error, data) {
   console.log(data)
+  var countries = topojson.feature(data, data.object.countries1).features
 
+  console.log(countries)
 }
 
 </script>
