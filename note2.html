@@ -7,10 +7,15 @@
       font-family: "Helvetica Neue";
     }
     p {
-      font-size: 0.85em
+      font-size: 0.85em;
     }
     svg {
-      background: #efefef
+      background: white;
+    }
+    .country{
+      fill: #cccccc;
+      stroke: #333333;
+      stroke-width: 0.5;
     }
     </style>
   </head>
@@ -62,6 +67,7 @@ d3.queue()
 // create a geopath (all coordinated form a shape)
   var path = d3.geoPath()
     .projection(projection)
+    .scale(100) // zoom the map in or out
 
 function ready (error, data) {
   console.log(data)
