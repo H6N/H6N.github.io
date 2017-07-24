@@ -129,6 +129,8 @@ function ready (error, data, gtd) {
         .attr("font-weight", "bold");
 
     tooltip.append("rect")
+        .attr("x", 0)
+        .attr("dy", -10)
         .attr("width", 400)
         .attr("height", 20)
         .attr("fill", "white")
