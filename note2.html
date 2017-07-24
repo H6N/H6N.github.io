@@ -106,11 +106,11 @@ function ready (error, data, capitals) {
       tooltip.append("text")
         .attr("x", 30)
         .attr("dy", "1.2em")
-        .style("text-anchor", "middle")
+        .style("text-anchor", "start")
         .attr("font-size", "10px")
         .attr("font-weight", "bold");
     //*** tooltip
-    
+
 // add capitals: get x/y coord from long/lat + projection
 
     svg.selectAll(".city-circle")
@@ -132,7 +132,7 @@ function ready (error, data, capitals) {
       .on("mousemove", function(d) {
         console.log(d);
         var xPosition = d3.mouse(this)[0] + 5;
-        var yPosition = d3.mouse(this)[1] - 5;
+        var yPosition = d3.mouse(this)[1] - 10;
         tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
         tooltip.select("text").text(d.name);
       });
