@@ -17,14 +17,6 @@
       stroke: #333333;
       stroke-width: 0.5;
     }
-    .selected {
-      fill: yellow;
-    }
-    .city-label {
-      font-size: 10px;
-    }
-    .gtd {
-    }
     .gtd-label {
       font-size: 10px;
     }
@@ -69,7 +61,6 @@ var svg = d3.select("#map")
 
 d3.queue()
   .defer(d3.json, "world-countries.json")
-  .defer(d3.csv, "capitals.csv") //remove capitals
   .defer(d3.csv, "gtd_country_lat_long_attacks_killed_wounded.csv")
   .await(ready)
 
@@ -83,7 +74,7 @@ d3.queue()
     .projection(projection)
 
 
-function ready (error, data, capitals, gtd) { //remove capitals
+function ready (error, data, gtd) {
   var countries = topojson.feature(data, data.objects.countries1).features
 
   svg.selectAll(".country")
@@ -91,12 +82,6 @@ function ready (error, data, capitals, gtd) { //remove capitals
     .enter().append("path")
     .attr("class", "country")
     .attr("d", path)
-    .on('mouseover', function(d){
-      d3.select(this).classed("selected", true)
-    })
-    .on('mouseout', function(d){
-      d3.select(this).classed("selected", false)
-    })
 
     //*** tooltip
       var tooltip = svg.append("g")
@@ -115,61 +100,9 @@ function ready (error, data, capitals, gtd) { //remove capitals
         .style("text-anchor", "start")
         .attr("font-size", "10px")
         .attr("font-weight", "bold");
-    //*** tooltip
-
-// add capitals: get x/y coord from long/lat + projection
-
-    svg.selectAll(".city-label")
-      .data(capitals)
-      .enter().append("text")
-      .attr("class", "city-label")
-  // static city labels code
-  // .attr("x", function(d) {
-  //   var coords = projection( [d.long, d.lat])
-  //   return coords[0];
-  // })
-  // .attr("y", function(d) {
-  //   var coords = projection( [d.long, d.lat])
-  //   return coords[1];
-  // })
-  // .text(function(d) {
-  //   return d.name
-  // })
-  // .attr("dx", 5) //offset the text right from the dot
-  // .attr("dy", 2) //offset the text down from the dot
-
-    svg.selectAll(".city-circle")
-      .data(capitals)
-      .enter().append("circle")
-      .attr("r", 2)
-      .attr("cx", function(d) {
-        var coords = projection( [d.long, d.lat])
-        return coords[0];
-      })
-      .attr("cy", function(d) {
-        var coords = projection( [d.long, d.lat])
-        return coords[1];
-      })
-
-      //*** tooltip for city name
-      .on("mouseover", function() { tooltip.style("display", null); })
-      .on("mouseout", function() { tooltip.style("display", "none"); })
-      .on("mousemove", function(d) {
-        var xPosition = d3.mouse(this)[0] + 5;
-        var yPosition = d3.mouse(this)[1] - 5;
-        tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
-        tooltip.select("text").text(d.name);
-      });
-      //*** tooltip
 
     // add GTD data, location based on average lat,long for events in each country
-    // *** update for GTD
-    // *** remove city-label from html style
 
-        // svg.selectAll(".gtd-label")
-        //   .data(gtd)
-        //   .enter().append("text")
-        //   .attr("class", "gtd-label")
         svg.selectAll(".gtd-circle")
              .data(gtd)
              .enter().append("circle")
@@ -192,10 +125,6 @@ function ready (error, data, capitals, gtd) { //remove capitals
               return coords[1];
             })
 
-            // *** update for GTD
-
-            //*** update tooltip for country GTD data
-
             .on("mouseover", function() { tooltip.style("display", null); })
             .on("mouseout", function() { tooltip.style("display", "none"); })
             .on("mousemove", function(d) {
@@ -207,7 +136,6 @@ function ready (error, data, capitals, gtd) { //remove capitals
               ", Attacks: " + d.attacks + ", Killed: " + d.killed + ", Wounded: " + d.wounded); // *** add attacks, killed, wounded
             });
 
-            //*** update for GTD tooltip
 
 
 
