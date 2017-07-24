@@ -112,8 +112,10 @@ function ready (error, data, gtd) {
         var xPosition = d3.mouse(this)[0] + 5;
         var yPosition = d3.mouse(this)[1] - 5;
         tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+        tooltip.select("rect");
         tooltip.select("text").text("Country: " +  d.country +
         ", Attacks: " + d.attacks + ", Killed: " + d.killed + ", Wounded: " + d.wounded);
+
     });
 
 //add tooltip for gtd circles
@@ -128,11 +130,11 @@ function ready (error, data, gtd) {
         .attr("font-size", "10px")
         .attr("font-weight", "bold");
 
-    // tooltip.insert("rect","text")
-    //     .attr("width", 400)
-    //     .attr("height", 20)
-    //     .attr("fill", "white")
-    //     .style("opacity", 0.5);
+    tooltip.append("rect")
+        .attr("width", 400)
+        .attr("height", 20)
+        .attr("fill", "white")
+        .style("opacity", 0.5);
 
 
 
