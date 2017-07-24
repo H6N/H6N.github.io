@@ -52,7 +52,7 @@ var svg = d3.select("#map")
 // read map file and data file
 
 d3.queue()
-  .defer(d3.json, "countries.json")
+  .defer(d3.json, "world-countries.json")
   .await(ready)
 
 // create projection
