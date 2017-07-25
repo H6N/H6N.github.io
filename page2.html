@@ -24,7 +24,7 @@
     <script src="https://d3js.org/d3.v4.min.js"></script>
 
     <div>
-      <h3 style="color: crimson"> Who are they targeting? </h3>
+      <h3 style="color: crimson"> How do they attack? </h3>
       <p style="color: black"> The instructions for this page. </p>
     </div>
 
@@ -67,10 +67,10 @@
   var color = d3.scaleLinear()
     .range(["#2171b5","#6baed6","#bdd7e7","white","#fcae91","#fb6a4a","#cb181d"]);
 
-  // Load data: year, targettype, count
+  // Load data: year, attacktype, count
 
   d3.queue()
-    .defer(d3.json, "targettype.json")
+    .defer(d3.json, "attacktype.json")
     .await(ready)
 
   function ready (error, data) {
@@ -83,14 +83,14 @@
         return d.year;
       }));
 
-      var targettypes = data.map(function(d) {
-        return d.targettype;
+      var attacktypes = data.map(function(d) {
+        return d.attacktype;
       });
 
       // scales
       yscale
         .range([0,height])
-        .domain(targettypes);
+        .domain(attacktypes);
 
       xscale
         .range([0, width])
@@ -121,7 +121,7 @@
         .call(xaxis);
 
       svg.append("g")
-        .selectAll(".target-type")
+        .selectAll(".attack-type")
         .data(data)
         .enter().append("circle")
         .attr("r", function(d){
@@ -129,7 +129,7 @@
               return size;
             // }
         })
-        .attr("cy", function(d) { return yscale(d.targettype); })
+        .attr("cy", function(d) { return yscale(d.attacktype); })
         .attr("cx", function(d) { return xscale(d.year); })
         .attr("fill", function(d) { return color(d.count); })
 
