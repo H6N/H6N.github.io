@@ -175,7 +175,6 @@
               return size;
             // }
         })
-        .attr("fill", "crimson")
         .attr("cy", function(d) { return yscale(d.targettype); })
         .attr("cx", function(d) { return xscale(d.year); })
         .attr("fill", function(d) { return color(d.count); })
@@ -190,114 +189,16 @@
 
         });
 
+        //add tooltip to circles
+            var tooltip = svg.append("g")
+                .attr("class", "tooltip")
+                .style("display", "none");
 
-// **********************************
-
-    // var countries = data.map(function(d) {    //targettypes
-    //   return d.country;
-    // });
-    //
-    // var years = data.columns.slice(1).map(function(d) {
-    //   return +d;
-    // });
-    //
-    // // loop through every data value
-    // data.forEach(function(row) {
-    //   years.forEach(function(year) {
-    //     // adds a single value to the data_values array
-    //     data_values.push({
-    //       country: row.country,
-    //       year: year,
-    //       value: +row[year]
-    //     });
-    //   });
-    // });
-    //
-    // // filter out non-numeric values
-    // // in a line chart, leave these in and use line.defined() from d3-shape
-    // data_values = data_values.filter(function(d) {
-    //   return !isNaN(d.value);
-    // });
-    //
-    // var data_extent = d3.extent(data_values.map(function(d) {
-    //   return d.value;
-    // }));
-
-    //*** started here
-    // // scales
-    // yscale
-    //   .range([0,height])
-    //   .domain(countries);     //targettypes
-    //
-    // xscale
-    //   .range([0, width])
-    //   .domain(d3.extent(years));
-    //
-    // radius
-    //   .range([3, 9])
-    //   .domain(data_extent);
-    //
-    // color
-    //   .domain(
-    //     d3.range(7).map(function(d) {
-    //       return d / 6 * data_extent[1];
-    //     })
-    //   )
-
-
-    // var yaxis = d3.axisLeft()
-    //   .scale(yscale);
-    //
-    // var xaxis = d3.axisBottom()
-    //   .tickFormat(function(d) { return d; })
-    //   .scale(xscale);
-    //
-    // var chart = d3.select("body")
-    //   .append("div");
-    //
-    // var svg = chart.append('svg')
-    //   .attr('width', width + margin.left + margin.right)
-    //   .attr('height', height + margin.top + margin.bottom)
-    //   .append('g')
-    //     .attr('transform', 'translate(' + [margin.left, margin.top] + ')')
-    //
-    //**** up to here
-
-
-
-
-    // svg.append("g")
-    //   .call(yaxis);
-    //
-    // svg.append("g")
-    //   .attr("transform", "translate(0," + (height+8) + ")")
-    //   .call(xaxis);
-    //
-    // svg.append("g")
-    //   .selectAll("circle")
-    //   .data(data_values)
-    //   .enter().append("circle")
-    //   .attr("r", function(d) { return radius(d.value); })
-    //   .attr("cy", function(d) { return yscale(d.country); })
-    //   .attr("cx", function(d) { return xscale(d.year); })
-    //   .attr("fill", function(d) { return color(d.value); })
-
-    /*
-
-
-    gens.selectAll("circle")
-      .data(function(d) { return d.values; })
-      .enter().append("circle")
-      .attr("r", function(d) { return radius(d.yield); })
-      .attr("cy", 0)
-      .attr("cx", function(d) { return xscale(d.year); })
-      .attr("fill", function(d) { return color(d.gen); })
-      .on("mouseover", function(d) {
-        console.log(d.yield);
-      });
-
-
-    console.log(nested);
-    */
+            tooltip.append("text")
+                .attr("x", 0)
+                .attr("dy", -10)
+                .style("text-anchor", "middle")
+                .attr("font-size", "12px")
+                .attr("font-weight", "bold");
   }
 </script>
