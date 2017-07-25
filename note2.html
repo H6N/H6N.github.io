@@ -94,7 +94,6 @@ function ready (error, data, gtd) {
   svg.selectAll(".gtd-circle")
     .data(gtd)
     .enter().append("circle")
-    .attr("r", 4)
     .attr("r", function(d){
         var size = d.attacks / 1000;
         if (size < 2) {
