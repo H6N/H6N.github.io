@@ -173,11 +173,11 @@
         .enter().append("circle")
         .attr("r", function(d){
             var size = d.count / 400;
-            if (size < 2) {
-              return 2;
-            } else {
+            // if (size < 2) {
+            //   return 2;
+            // } else {
               return size;
-            }
+            // }
         })
         .attr("fill", "crimson")
         .attr("cy", function(d) { return yscale(d.targettype); })
