@@ -128,12 +128,12 @@
       }));
       console.log(data_extent);
       var time_extent = d3.extent(data.map(function(d) {
-        return d.count;
+        return d.year;
       }));
       console.log(time_extent);
-      var targettypes = unique(data.map(function(d) {
+      var targettypes = data.map.values(function(d) {
         return d.targettype;
-      }));
+      });
       console.log(targettypes);
       var years = data.map(function(d) {
         return d.year;
