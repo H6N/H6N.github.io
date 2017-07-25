@@ -90,6 +90,7 @@ function ready (error, data, gtd) {
     .attr("d", path)
 
 // add GTD data, location based on average lat,long for events in each country
+  console.log(gdt);
   svg.selectAll(".gtd-circle")
     .data(gtd)
     .enter().append("circle")
