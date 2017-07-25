@@ -62,9 +62,6 @@ var svg = d3.select("#map")
   .append("g")
   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-var color = d3.scaleLinear()
-  .range(["#2171b5","#6baed6","#bdd7e7","white","#fcae91","#fb6a4a","#cb181d"]);
-
 // read map file and data file
 
 d3.queue()
@@ -84,17 +81,6 @@ d3.queue()
 // read data files
 function ready (error, data, gtd) {
   var countries = topojson.feature(data, data.objects.countries1).features
-
-  var data_extent = d3.extent(data.map(function(d) {
-    return d.attacks;
-  }));
-
-  color
-    .domain(
-      d3.range(7).map(function(d) {
-        return d / 0.9 * data_extent[1];
-      })
-    )
 
 // create the map
   svg.selectAll(".country")
@@ -116,8 +102,7 @@ function ready (error, data, gtd) {
           return size;
         }
     })
-    //.attr("fill", "crimson")
-    .attr("fill", function(d) { return color(d.attacks); })
+    .attr("fill", "crimson")
     .attr("cx", function(d) {
         var coords = projection([d.long, d.lat])
         return coords[0];
