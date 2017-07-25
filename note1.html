@@ -10,7 +10,7 @@
       font-size: 0.85em;
     }
     svg {
-      background: white;
+      background: gray;
     }
 
     text {
@@ -64,6 +64,13 @@
     height = 600 - margin.top - margin.bottom,
     width = 1300 - margin.left - margin.right;
 
+    var svg = d3.select("#map")
+      .append("svg")
+      .attr("height", height + margin.top + margin.bottom)
+      .attr("width", width + margin.right + margin.left)
+      .append("g")
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
   var yscale = d3.scalePoint();
   var xscale = d3.scaleLinear();
   var radius = d3.scaleSqrt();
@@ -84,7 +91,6 @@ function ready (error, data) {
   //   if (err) { throw(error) }
 
     console.log(data);
-    //console.log("columns", data.columns);
 
     // var countries = data.map(function(d) {
     //   return d.country;
