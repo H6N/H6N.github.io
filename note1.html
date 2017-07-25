@@ -95,16 +95,15 @@ function ready (error, data) {
     svg.selectAll(".target-type")
       .data(data)
       .enter().append("circle")
-      .attr("r", 4)
-      // .attr("r", function(d){
-      //     var size = d.attacks / 1000;
-      //     if (size < 2) {
-      //       return 2;
-      //     } else {
-      //       return size;
-      //     }
-      // })
-      // .attr("fill", "crimson")
+      .attr("r", function(d){
+          var size = d.count / 400;
+          if (size < 2) {
+            return 2;
+          } else {
+            return size;
+          }
+      })
+      .attr("fill", "crimson")
       // .attr("cx", function(d) {
       //     var coords = projection([d.long, d.lat])
       //     return coords[0];
