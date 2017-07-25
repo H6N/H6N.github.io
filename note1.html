@@ -127,18 +127,22 @@
         return d.count;
       }));
       console.log(data_extent);
+
       var time_extent = d3.extent(data.map(function(d) {
         return d.year;
       }));
       console.log(time_extent);
-      var targettypes = data.map.values(function(d) {
+
+      var targettypes = data.map(function(d) {
         return d.targettype;
       });
       console.log(targettypes);
-      var years = data.map(function(d) {
-        return d.year;
-      });
-      console.log(years);
+
+      // var years = data.map(function(d) {
+      //   return d.year;
+      // });
+      // console.log(years);
+
       // scales
       yscale
         .range([0,height])
@@ -149,7 +153,7 @@
         .domain(time_extent);
 
       radius
-        .range([3, 9])
+        .range([2, 10])
         .domain(data_extent);
 
       color
@@ -158,8 +162,21 @@
             return d / 6 * data_extent[1];
           })
         )
+      var yaxis = d3.axisLeft()
+        .scale(yscale);
 
+      var xaxis = d3.axisBottom()
+        .tickFormat(function(d) { return d; })
+        .scale(xscale);
 
+      // var chart = d3.select("body")
+      //   .append("div");
+
+      // var svg = chart.append('svg')
+      //   .attr('width', width + margin.left + margin.right)
+      //   .attr('height', height + margin.top + margin.bottom)
+      //   .append('g')
+      //   .attr('transform', 'translate(' + [margin.left, margin.top] + ')')
 
 
 
@@ -217,7 +234,7 @@
     //       return d / 6 * data_extent[1];
     //     })
     //   )
-    //**** up to here
+
 
     // var yaxis = d3.axisLeft()
     //   .scale(yscale);
@@ -235,6 +252,11 @@
     //   .append('g')
     //     .attr('transform', 'translate(' + [margin.left, margin.top] + ')')
     //
+    //**** up to here
+
+
+
+
     // svg.append("g")
     //   .call(yaxis);
     //
