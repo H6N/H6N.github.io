@@ -1,0 +1,4951 @@
+[
+  {
+     "year":1970
+    ,"targettype":"Private Citizens & Property"
+    ,"count":57
+  },
+  {
+     "year":1970
+    ,"targettype":"Military"
+    ,"count":86
+  },
+  {
+     "year":1970
+    ,"targettype":"Police"
+    ,"count":81
+  },
+  {
+     "year":1970
+    ,"targettype":"Government (General)"
+    ,"count":81
+  },
+  {
+     "year":1970
+    ,"targettype":"Business"
+    ,"count":136
+  },
+  {
+     "year":1970
+    ,"targettype":"Unknown"
+    ,"count":4
+  },
+  {
+     "year":1970
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":13
+  },
+  {
+     "year":1970
+    ,"targettype":"Transportation"
+    ,"count":2
+  },
+  {
+     "year":1970
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":4
+  },
+  {
+     "year":1970
+    ,"targettype":"Educational Institution"
+    ,"count":62
+  },
+  {
+     "year":1970
+    ,"targettype":"Utilities"
+    ,"count":16
+  },
+  {
+     "year":1970
+    ,"targettype":"Violent Political Party"
+    ,"count":1
+  },
+  {
+     "year":1970
+    ,"targettype":"Journalists & Media"
+    ,"count":9
+  },
+  {
+     "year":1970
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":54
+  },
+  {
+     "year":1970
+    ,"targettype":"Other"
+    ,"count":1
+  },
+  {
+     "year":1970
+    ,"targettype":"NGO"
+    ,"count":8
+  },
+  {
+     "year":1970
+    ,"targettype":"Telecommunication"
+    ,"count":7
+  },
+  {
+     "year":1970
+    ,"targettype":"Airports & Aircraft"
+    ,"count":25
+  },
+  {
+     "year":1970
+    ,"targettype":"Food or Water Supply"
+    ,"count":2
+  },
+  {
+     "year":1970
+    ,"targettype":"Maritime"
+    ,"count":0
+  },
+  {
+     "year":1970
+    ,"targettype":"Abortion Related"
+    ,"count":0
+  },
+  {
+     "year":1970
+    ,"targettype":"Tourists"
+    ,"count":2
+  },
+  {
+     "year":1971
+    ,"targettype":"Private Citizens & Property"
+    ,"count":23
+  },
+  {
+     "year":1971
+    ,"targettype":"Military"
+    ,"count":103
+  },
+  {
+     "year":1971
+    ,"targettype":"Police"
+    ,"count":38
+  },
+  {
+     "year":1971
+    ,"targettype":"Government (General)"
+    ,"count":46
+  },
+  {
+     "year":1971
+    ,"targettype":"Business"
+    ,"count":131
+  },
+  {
+     "year":1971
+    ,"targettype":"Unknown"
+    ,"count":0
+  },
+  {
+     "year":1971
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":4
+  },
+  {
+     "year":1971
+    ,"targettype":"Transportation"
+    ,"count":4
+  },
+  {
+     "year":1971
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":1
+  },
+  {
+     "year":1971
+    ,"targettype":"Educational Institution"
+    ,"count":39
+  },
+  {
+     "year":1971
+    ,"targettype":"Utilities"
+    ,"count":12
+  },
+  {
+     "year":1971
+    ,"targettype":"Violent Political Party"
+    ,"count":2
+  },
+  {
+     "year":1971
+    ,"targettype":"Journalists & Media"
+    ,"count":12
+  },
+  {
+     "year":1971
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":35
+  },
+  {
+     "year":1971
+    ,"targettype":"Other"
+    ,"count":0
+  },
+  {
+     "year":1971
+    ,"targettype":"NGO"
+    ,"count":2
+  },
+  {
+     "year":1971
+    ,"targettype":"Telecommunication"
+    ,"count":3
+  },
+  {
+     "year":1971
+    ,"targettype":"Airports & Aircraft"
+    ,"count":10
+  },
+  {
+     "year":1971
+    ,"targettype":"Food or Water Supply"
+    ,"count":0
+  },
+  {
+     "year":1971
+    ,"targettype":"Maritime"
+    ,"count":2
+  },
+  {
+     "year":1971
+    ,"targettype":"Abortion Related"
+    ,"count":0
+  },
+  {
+     "year":1971
+    ,"targettype":"Tourists"
+    ,"count":3
+  },
+  {
+     "year":1972
+    ,"targettype":"Private Citizens & Property"
+    ,"count":141
+  },
+  {
+     "year":1972
+    ,"targettype":"Military"
+    ,"count":145
+  },
+  {
+     "year":1972
+    ,"targettype":"Police"
+    ,"count":26
+  },
+  {
+     "year":1972
+    ,"targettype":"Government (General)"
+    ,"count":16
+  },
+  {
+     "year":1972
+    ,"targettype":"Business"
+    ,"count":76
+  },
+  {
+     "year":1972
+    ,"targettype":"Unknown"
+    ,"count":0
+  },
+  {
+     "year":1972
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":0
+  },
+  {
+     "year":1972
+    ,"targettype":"Transportation"
+    ,"count":3
+  },
+  {
+     "year":1972
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":12
+  },
+  {
+     "year":1972
+    ,"targettype":"Educational Institution"
+    ,"count":6
+  },
+  {
+     "year":1972
+    ,"targettype":"Utilities"
+    ,"count":7
+  },
+  {
+     "year":1972
+    ,"targettype":"Violent Political Party"
+    ,"count":1
+  },
+  {
+     "year":1972
+    ,"targettype":"Journalists & Media"
+    ,"count":5
+  },
+  {
+     "year":1972
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":28
+  },
+  {
+     "year":1972
+    ,"targettype":"Other"
+    ,"count":0
+  },
+  {
+     "year":1972
+    ,"targettype":"NGO"
+    ,"count":1
+  },
+  {
+     "year":1972
+    ,"targettype":"Telecommunication"
+    ,"count":0
+  },
+  {
+     "year":1972
+    ,"targettype":"Airports & Aircraft"
+    ,"count":22
+  },
+  {
+     "year":1972
+    ,"targettype":"Food or Water Supply"
+    ,"count":0
+  },
+  {
+     "year":1972
+    ,"targettype":"Maritime"
+    ,"count":1
+  },
+  {
+     "year":1972
+    ,"targettype":"Abortion Related"
+    ,"count":0
+  },
+  {
+     "year":1972
+    ,"targettype":"Tourists"
+    ,"count":4
+  },
+  {
+     "year":1973
+    ,"targettype":"Private Citizens & Property"
+    ,"count":127
+  },
+  {
+     "year":1973
+    ,"targettype":"Military"
+    ,"count":91
+  },
+  {
+     "year":1973
+    ,"targettype":"Police"
+    ,"count":29
+  },
+  {
+     "year":1973
+    ,"targettype":"Government (General)"
+    ,"count":22
+  },
+  {
+     "year":1973
+    ,"targettype":"Business"
+    ,"count":83
+  },
+  {
+     "year":1973
+    ,"targettype":"Unknown"
+    ,"count":0
+  },
+  {
+     "year":1973
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":2
+  },
+  {
+     "year":1973
+    ,"targettype":"Transportation"
+    ,"count":2
+  },
+  {
+     "year":1973
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":19
+  },
+  {
+     "year":1973
+    ,"targettype":"Educational Institution"
+    ,"count":5
+  },
+  {
+     "year":1973
+    ,"targettype":"Utilities"
+    ,"count":5
+  },
+  {
+     "year":1973
+    ,"targettype":"Violent Political Party"
+    ,"count":0
+  },
+  {
+     "year":1973
+    ,"targettype":"Journalists & Media"
+    ,"count":3
+  },
+  {
+     "year":1973
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":57
+  },
+  {
+     "year":1973
+    ,"targettype":"Other"
+    ,"count":3
+  },
+  {
+     "year":1973
+    ,"targettype":"NGO"
+    ,"count":2
+  },
+  {
+     "year":1973
+    ,"targettype":"Telecommunication"
+    ,"count":0
+  },
+  {
+     "year":1973
+    ,"targettype":"Airports & Aircraft"
+    ,"count":20
+  },
+  {
+     "year":1973
+    ,"targettype":"Food or Water Supply"
+    ,"count":0
+  },
+  {
+     "year":1973
+    ,"targettype":"Maritime"
+    ,"count":3
+  },
+  {
+     "year":1973
+    ,"targettype":"Abortion Related"
+    ,"count":0
+  },
+  {
+     "year":1973
+    ,"targettype":"Tourists"
+    ,"count":0
+  },
+  {
+     "year":1974
+    ,"targettype":"Private Citizens & Property"
+    ,"count":130
+  },
+  {
+     "year":1974
+    ,"targettype":"Military"
+    ,"count":60
+  },
+  {
+     "year":1974
+    ,"targettype":"Police"
+    ,"count":41
+  },
+  {
+     "year":1974
+    ,"targettype":"Government (General)"
+    ,"count":36
+  },
+  {
+     "year":1974
+    ,"targettype":"Business"
+    ,"count":178
+  },
+  {
+     "year":1974
+    ,"targettype":"Unknown"
+    ,"count":2
+  },
+  {
+     "year":1974
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":7
+  },
+  {
+     "year":1974
+    ,"targettype":"Transportation"
+    ,"count":7
+  },
+  {
+     "year":1974
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":15
+  },
+  {
+     "year":1974
+    ,"targettype":"Educational Institution"
+    ,"count":3
+  },
+  {
+     "year":1974
+    ,"targettype":"Utilities"
+    ,"count":5
+  },
+  {
+     "year":1974
+    ,"targettype":"Violent Political Party"
+    ,"count":0
+  },
+  {
+     "year":1974
+    ,"targettype":"Journalists & Media"
+    ,"count":9
+  },
+  {
+     "year":1974
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":58
+  },
+  {
+     "year":1974
+    ,"targettype":"Other"
+    ,"count":0
+  },
+  {
+     "year":1974
+    ,"targettype":"NGO"
+    ,"count":3
+  },
+  {
+     "year":1974
+    ,"targettype":"Telecommunication"
+    ,"count":4
+  },
+  {
+     "year":1974
+    ,"targettype":"Airports & Aircraft"
+    ,"count":20
+  },
+  {
+     "year":1974
+    ,"targettype":"Food or Water Supply"
+    ,"count":0
+  },
+  {
+     "year":1974
+    ,"targettype":"Maritime"
+    ,"count":2
+  },
+  {
+     "year":1974
+    ,"targettype":"Abortion Related"
+    ,"count":0
+  },
+  {
+     "year":1974
+    ,"targettype":"Tourists"
+    ,"count":0
+  },
+  {
+     "year":1975
+    ,"targettype":"Private Citizens & Property"
+    ,"count":135
+  },
+  {
+     "year":1975
+    ,"targettype":"Military"
+    ,"count":48
+  },
+  {
+     "year":1975
+    ,"targettype":"Police"
+    ,"count":72
+  },
+  {
+     "year":1975
+    ,"targettype":"Government (General)"
+    ,"count":64
+  },
+  {
+     "year":1975
+    ,"targettype":"Business"
+    ,"count":204
+  },
+  {
+     "year":1975
+    ,"targettype":"Unknown"
+    ,"count":2
+  },
+  {
+     "year":1975
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":8
+  },
+  {
+     "year":1975
+    ,"targettype":"Transportation"
+    ,"count":28
+  },
+  {
+     "year":1975
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":29
+  },
+  {
+     "year":1975
+    ,"targettype":"Educational Institution"
+    ,"count":6
+  },
+  {
+     "year":1975
+    ,"targettype":"Utilities"
+    ,"count":19
+  },
+  {
+     "year":1975
+    ,"targettype":"Violent Political Party"
+    ,"count":3
+  },
+  {
+     "year":1975
+    ,"targettype":"Journalists & Media"
+    ,"count":16
+  },
+  {
+     "year":1975
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":70
+  },
+  {
+     "year":1975
+    ,"targettype":"Other"
+    ,"count":2
+  },
+  {
+     "year":1975
+    ,"targettype":"NGO"
+    ,"count":3
+  },
+  {
+     "year":1975
+    ,"targettype":"Telecommunication"
+    ,"count":3
+  },
+  {
+     "year":1975
+    ,"targettype":"Airports & Aircraft"
+    ,"count":19
+  },
+  {
+     "year":1975
+    ,"targettype":"Food or Water Supply"
+    ,"count":2
+  },
+  {
+     "year":1975
+    ,"targettype":"Maritime"
+    ,"count":3
+  },
+  {
+     "year":1975
+    ,"targettype":"Abortion Related"
+    ,"count":0
+  },
+  {
+     "year":1975
+    ,"targettype":"Tourists"
+    ,"count":4
+  },
+  {
+     "year":1976
+    ,"targettype":"Private Citizens & Property"
+    ,"count":157
+  },
+  {
+     "year":1976
+    ,"targettype":"Military"
+    ,"count":93
+  },
+  {
+     "year":1976
+    ,"targettype":"Police"
+    ,"count":84
+  },
+  {
+     "year":1976
+    ,"targettype":"Government (General)"
+    ,"count":104
+  },
+  {
+     "year":1976
+    ,"targettype":"Business"
+    ,"count":216
+  },
+  {
+     "year":1976
+    ,"targettype":"Unknown"
+    ,"count":4
+  },
+  {
+     "year":1976
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":8
+  },
+  {
+     "year":1976
+    ,"targettype":"Transportation"
+    ,"count":17
+  },
+  {
+     "year":1976
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":13
+  },
+  {
+     "year":1976
+    ,"targettype":"Educational Institution"
+    ,"count":15
+  },
+  {
+     "year":1976
+    ,"targettype":"Utilities"
+    ,"count":10
+  },
+  {
+     "year":1976
+    ,"targettype":"Violent Political Party"
+    ,"count":13
+  },
+  {
+     "year":1976
+    ,"targettype":"Journalists & Media"
+    ,"count":27
+  },
+  {
+     "year":1976
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":108
+  },
+  {
+     "year":1976
+    ,"targettype":"Other"
+    ,"count":0
+  },
+  {
+     "year":1976
+    ,"targettype":"NGO"
+    ,"count":2
+  },
+  {
+     "year":1976
+    ,"targettype":"Telecommunication"
+    ,"count":1
+  },
+  {
+     "year":1976
+    ,"targettype":"Airports & Aircraft"
+    ,"count":43
+  },
+  {
+     "year":1976
+    ,"targettype":"Food or Water Supply"
+    ,"count":0
+  },
+  {
+     "year":1976
+    ,"targettype":"Maritime"
+    ,"count":5
+  },
+  {
+     "year":1976
+    ,"targettype":"Abortion Related"
+    ,"count":0
+  },
+  {
+     "year":1976
+    ,"targettype":"Tourists"
+    ,"count":3
+  },
+  {
+     "year":1977
+    ,"targettype":"Private Citizens & Property"
+    ,"count":223
+  },
+  {
+     "year":1977
+    ,"targettype":"Military"
+    ,"count":82
+  },
+  {
+     "year":1977
+    ,"targettype":"Police"
+    ,"count":108
+  },
+  {
+     "year":1977
+    ,"targettype":"Government (General)"
+    ,"count":178
+  },
+  {
+     "year":1977
+    ,"targettype":"Business"
+    ,"count":409
+  },
+  {
+     "year":1977
+    ,"targettype":"Unknown"
+    ,"count":7
+  },
+  {
+     "year":1977
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":10
+  },
+  {
+     "year":1977
+    ,"targettype":"Transportation"
+    ,"count":41
+  },
+  {
+     "year":1977
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":9
+  },
+  {
+     "year":1977
+    ,"targettype":"Educational Institution"
+    ,"count":31
+  },
+  {
+     "year":1977
+    ,"targettype":"Utilities"
+    ,"count":43
+  },
+  {
+     "year":1977
+    ,"targettype":"Violent Political Party"
+    ,"count":10
+  },
+  {
+     "year":1977
+    ,"targettype":"Journalists & Media"
+    ,"count":54
+  },
+  {
+     "year":1977
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":61
+  },
+  {
+     "year":1977
+    ,"targettype":"Other"
+    ,"count":1
+  },
+  {
+     "year":1977
+    ,"targettype":"NGO"
+    ,"count":0
+  },
+  {
+     "year":1977
+    ,"targettype":"Telecommunication"
+    ,"count":12
+  },
+  {
+     "year":1977
+    ,"targettype":"Airports & Aircraft"
+    ,"count":30
+  },
+  {
+     "year":1977
+    ,"targettype":"Food or Water Supply"
+    ,"count":1
+  },
+  {
+     "year":1977
+    ,"targettype":"Maritime"
+    ,"count":1
+  },
+  {
+     "year":1977
+    ,"targettype":"Abortion Related"
+    ,"count":4
+  },
+  {
+     "year":1977
+    ,"targettype":"Tourists"
+    ,"count":4
+  },
+  {
+     "year":1978
+    ,"targettype":"Private Citizens & Property"
+    ,"count":143
+  },
+  {
+     "year":1978
+    ,"targettype":"Military"
+    ,"count":120
+  },
+  {
+     "year":1978
+    ,"targettype":"Police"
+    ,"count":228
+  },
+  {
+     "year":1978
+    ,"targettype":"Government (General)"
+    ,"count":243
+  },
+  {
+     "year":1978
+    ,"targettype":"Business"
+    ,"count":422
+  },
+  {
+     "year":1978
+    ,"targettype":"Unknown"
+    ,"count":9
+  },
+  {
+     "year":1978
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":16
+  },
+  {
+     "year":1978
+    ,"targettype":"Transportation"
+    ,"count":42
+  },
+  {
+     "year":1978
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":18
+  },
+  {
+     "year":1978
+    ,"targettype":"Educational Institution"
+    ,"count":36
+  },
+  {
+     "year":1978
+    ,"targettype":"Utilities"
+    ,"count":34
+  },
+  {
+     "year":1978
+    ,"targettype":"Violent Political Party"
+    ,"count":14
+  },
+  {
+     "year":1978
+    ,"targettype":"Journalists & Media"
+    ,"count":57
+  },
+  {
+     "year":1978
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":60
+  },
+  {
+     "year":1978
+    ,"targettype":"Other"
+    ,"count":1
+  },
+  {
+     "year":1978
+    ,"targettype":"NGO"
+    ,"count":5
+  },
+  {
+     "year":1978
+    ,"targettype":"Telecommunication"
+    ,"count":18
+  },
+  {
+     "year":1978
+    ,"targettype":"Airports & Aircraft"
+    ,"count":36
+  },
+  {
+     "year":1978
+    ,"targettype":"Food or Water Supply"
+    ,"count":11
+  },
+  {
+     "year":1978
+    ,"targettype":"Maritime"
+    ,"count":2
+  },
+  {
+     "year":1978
+    ,"targettype":"Abortion Related"
+    ,"count":6
+  },
+  {
+     "year":1978
+    ,"targettype":"Tourists"
+    ,"count":5
+  },
+  {
+     "year":1979
+    ,"targettype":"Private Citizens & Property"
+    ,"count":386
+  },
+  {
+     "year":1979
+    ,"targettype":"Military"
+    ,"count":225
+  },
+  {
+     "year":1979
+    ,"targettype":"Police"
+    ,"count":311
+  },
+  {
+     "year":1979
+    ,"targettype":"Government (General)"
+    ,"count":489
+  },
+  {
+     "year":1979
+    ,"targettype":"Business"
+    ,"count":598
+  },
+  {
+     "year":1979
+    ,"targettype":"Unknown"
+    ,"count":84
+  },
+  {
+     "year":1979
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":41
+  },
+  {
+     "year":1979
+    ,"targettype":"Transportation"
+    ,"count":97
+  },
+  {
+     "year":1979
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":18
+  },
+  {
+     "year":1979
+    ,"targettype":"Educational Institution"
+    ,"count":65
+  },
+  {
+     "year":1979
+    ,"targettype":"Utilities"
+    ,"count":25
+  },
+  {
+     "year":1979
+    ,"targettype":"Violent Political Party"
+    ,"count":11
+  },
+  {
+     "year":1979
+    ,"targettype":"Journalists & Media"
+    ,"count":87
+  },
+  {
+     "year":1979
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":90
+  },
+  {
+     "year":1979
+    ,"targettype":"Other"
+    ,"count":0
+  },
+  {
+     "year":1979
+    ,"targettype":"NGO"
+    ,"count":9
+  },
+  {
+     "year":1979
+    ,"targettype":"Telecommunication"
+    ,"count":30
+  },
+  {
+     "year":1979
+    ,"targettype":"Airports & Aircraft"
+    ,"count":68
+  },
+  {
+     "year":1979
+    ,"targettype":"Food or Water Supply"
+    ,"count":1
+  },
+  {
+     "year":1979
+    ,"targettype":"Maritime"
+    ,"count":9
+  },
+  {
+     "year":1979
+    ,"targettype":"Abortion Related"
+    ,"count":1
+  },
+  {
+     "year":1979
+    ,"targettype":"Tourists"
+    ,"count":16
+  },
+  {
+     "year":1980
+    ,"targettype":"Private Citizens & Property"
+    ,"count":430
+  },
+  {
+     "year":1980
+    ,"targettype":"Military"
+    ,"count":273
+  },
+  {
+     "year":1980
+    ,"targettype":"Police"
+    ,"count":261
+  },
+  {
+     "year":1980
+    ,"targettype":"Government (General)"
+    ,"count":379
+  },
+  {
+     "year":1980
+    ,"targettype":"Business"
+    ,"count":586
+  },
+  {
+     "year":1980
+    ,"targettype":"Unknown"
+    ,"count":28
+  },
+  {
+     "year":1980
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":49
+  },
+  {
+     "year":1980
+    ,"targettype":"Transportation"
+    ,"count":114
+  },
+  {
+     "year":1980
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":26
+  },
+  {
+     "year":1980
+    ,"targettype":"Educational Institution"
+    ,"count":117
+  },
+  {
+     "year":1980
+    ,"targettype":"Utilities"
+    ,"count":39
+  },
+  {
+     "year":1980
+    ,"targettype":"Violent Political Party"
+    ,"count":20
+  },
+  {
+     "year":1980
+    ,"targettype":"Journalists & Media"
+    ,"count":119
+  },
+  {
+     "year":1980
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":129
+  },
+  {
+     "year":1980
+    ,"targettype":"Other"
+    ,"count":1
+  },
+  {
+     "year":1980
+    ,"targettype":"NGO"
+    ,"count":6
+  },
+  {
+     "year":1980
+    ,"targettype":"Telecommunication"
+    ,"count":6
+  },
+  {
+     "year":1980
+    ,"targettype":"Airports & Aircraft"
+    ,"count":65
+  },
+  {
+     "year":1980
+    ,"targettype":"Food or Water Supply"
+    ,"count":4
+  },
+  {
+     "year":1980
+    ,"targettype":"Maritime"
+    ,"count":0
+  },
+  {
+     "year":1980
+    ,"targettype":"Abortion Related"
+    ,"count":3
+  },
+  {
+     "year":1980
+    ,"targettype":"Tourists"
+    ,"count":8
+  },
+  {
+     "year":1981
+    ,"targettype":"Private Citizens & Property"
+    ,"count":400
+  },
+  {
+     "year":1981
+    ,"targettype":"Military"
+    ,"count":496
+  },
+  {
+     "year":1981
+    ,"targettype":"Police"
+    ,"count":261
+  },
+  {
+     "year":1981
+    ,"targettype":"Government (General)"
+    ,"count":293
+  },
+  {
+     "year":1981
+    ,"targettype":"Business"
+    ,"count":398
+  },
+  {
+     "year":1981
+    ,"targettype":"Unknown"
+    ,"count":17
+  },
+  {
+     "year":1981
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":31
+  },
+  {
+     "year":1981
+    ,"targettype":"Transportation"
+    ,"count":134
+  },
+  {
+     "year":1981
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":25
+  },
+  {
+     "year":1981
+    ,"targettype":"Educational Institution"
+    ,"count":58
+  },
+  {
+     "year":1981
+    ,"targettype":"Utilities"
+    ,"count":163
+  },
+  {
+     "year":1981
+    ,"targettype":"Violent Political Party"
+    ,"count":7
+  },
+  {
+     "year":1981
+    ,"targettype":"Journalists & Media"
+    ,"count":59
+  },
+  {
+     "year":1981
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":119
+  },
+  {
+     "year":1981
+    ,"targettype":"Other"
+    ,"count":0
+  },
+  {
+     "year":1981
+    ,"targettype":"NGO"
+    ,"count":4
+  },
+  {
+     "year":1981
+    ,"targettype":"Telecommunication"
+    ,"count":32
+  },
+  {
+     "year":1981
+    ,"targettype":"Airports & Aircraft"
+    ,"count":67
+  },
+  {
+     "year":1981
+    ,"targettype":"Food or Water Supply"
+    ,"count":9
+  },
+  {
+     "year":1981
+    ,"targettype":"Maritime"
+    ,"count":4
+  },
+  {
+     "year":1981
+    ,"targettype":"Abortion Related"
+    ,"count":0
+  },
+  {
+     "year":1981
+    ,"targettype":"Tourists"
+    ,"count":8
+  },
+  {
+     "year":1982
+    ,"targettype":"Private Citizens & Property"
+    ,"count":459
+  },
+  {
+     "year":1982
+    ,"targettype":"Military"
+    ,"count":424
+  },
+  {
+     "year":1982
+    ,"targettype":"Police"
+    ,"count":236
+  },
+  {
+     "year":1982
+    ,"targettype":"Government (General)"
+    ,"count":242
+  },
+  {
+     "year":1982
+    ,"targettype":"Business"
+    ,"count":383
+  },
+  {
+     "year":1982
+    ,"targettype":"Unknown"
+    ,"count":53
+  },
+  {
+     "year":1982
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":36
+  },
+  {
+     "year":1982
+    ,"targettype":"Transportation"
+    ,"count":126
+  },
+  {
+     "year":1982
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":28
+  },
+  {
+     "year":1982
+    ,"targettype":"Educational Institution"
+    ,"count":51
+  },
+  {
+     "year":1982
+    ,"targettype":"Utilities"
+    ,"count":204
+  },
+  {
+     "year":1982
+    ,"targettype":"Violent Political Party"
+    ,"count":8
+  },
+  {
+     "year":1982
+    ,"targettype":"Journalists & Media"
+    ,"count":60
+  },
+  {
+     "year":1982
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":108
+  },
+  {
+     "year":1982
+    ,"targettype":"Other"
+    ,"count":0
+  },
+  {
+     "year":1982
+    ,"targettype":"NGO"
+    ,"count":4
+  },
+  {
+     "year":1982
+    ,"targettype":"Telecommunication"
+    ,"count":54
+  },
+  {
+     "year":1982
+    ,"targettype":"Airports & Aircraft"
+    ,"count":40
+  },
+  {
+     "year":1982
+    ,"targettype":"Food or Water Supply"
+    ,"count":12
+  },
+  {
+     "year":1982
+    ,"targettype":"Maritime"
+    ,"count":2
+  },
+  {
+     "year":1982
+    ,"targettype":"Abortion Related"
+    ,"count":7
+  },
+  {
+     "year":1982
+    ,"targettype":"Tourists"
+    ,"count":8
+  },
+  {
+     "year":1983
+    ,"targettype":"Private Citizens & Property"
+    ,"count":483
+  },
+  {
+     "year":1983
+    ,"targettype":"Military"
+    ,"count":794
+  },
+  {
+     "year":1983
+    ,"targettype":"Police"
+    ,"count":298
+  },
+  {
+     "year":1983
+    ,"targettype":"Government (General)"
+    ,"count":264
+  },
+  {
+     "year":1983
+    ,"targettype":"Business"
+    ,"count":389
+  },
+  {
+     "year":1983
+    ,"targettype":"Unknown"
+    ,"count":15
+  },
+  {
+     "year":1983
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":42
+  },
+  {
+     "year":1983
+    ,"targettype":"Transportation"
+    ,"count":143
+  },
+  {
+     "year":1983
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":15
+  },
+  {
+     "year":1983
+    ,"targettype":"Educational Institution"
+    ,"count":39
+  },
+  {
+     "year":1983
+    ,"targettype":"Utilities"
+    ,"count":150
+  },
+  {
+     "year":1983
+    ,"targettype":"Violent Political Party"
+    ,"count":3
+  },
+  {
+     "year":1983
+    ,"targettype":"Journalists & Media"
+    ,"count":61
+  },
+  {
+     "year":1983
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":85
+  },
+  {
+     "year":1983
+    ,"targettype":"Other"
+    ,"count":0
+  },
+  {
+     "year":1983
+    ,"targettype":"NGO"
+    ,"count":8
+  },
+  {
+     "year":1983
+    ,"targettype":"Telecommunication"
+    ,"count":21
+  },
+  {
+     "year":1983
+    ,"targettype":"Airports & Aircraft"
+    ,"count":47
+  },
+  {
+     "year":1983
+    ,"targettype":"Food or Water Supply"
+    ,"count":6
+  },
+  {
+     "year":1983
+    ,"targettype":"Maritime"
+    ,"count":3
+  },
+  {
+     "year":1983
+    ,"targettype":"Abortion Related"
+    ,"count":3
+  },
+  {
+     "year":1983
+    ,"targettype":"Tourists"
+    ,"count":1
+  },
+  {
+     "year":1984
+    ,"targettype":"Private Citizens & Property"
+    ,"count":606
+  },
+  {
+     "year":1984
+    ,"targettype":"Military"
+    ,"count":666
+  },
+  {
+     "year":1984
+    ,"targettype":"Police"
+    ,"count":305
+  },
+  {
+     "year":1984
+    ,"targettype":"Government (General)"
+    ,"count":310
+  },
+  {
+     "year":1984
+    ,"targettype":"Business"
+    ,"count":512
+  },
+  {
+     "year":1984
+    ,"targettype":"Unknown"
+    ,"count":23
+  },
+  {
+     "year":1984
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":63
+  },
+  {
+     "year":1984
+    ,"targettype":"Transportation"
+    ,"count":246
+  },
+  {
+     "year":1984
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":23
+  },
+  {
+     "year":1984
+    ,"targettype":"Educational Institution"
+    ,"count":51
+  },
+  {
+     "year":1984
+    ,"targettype":"Utilities"
+    ,"count":360
+  },
+  {
+     "year":1984
+    ,"targettype":"Violent Political Party"
+    ,"count":18
+  },
+  {
+     "year":1984
+    ,"targettype":"Journalists & Media"
+    ,"count":66
+  },
+  {
+     "year":1984
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":94
+  },
+  {
+     "year":1984
+    ,"targettype":"Other"
+    ,"count":2
+  },
+  {
+     "year":1984
+    ,"targettype":"NGO"
+    ,"count":9
+  },
+  {
+     "year":1984
+    ,"targettype":"Telecommunication"
+    ,"count":26
+  },
+  {
+     "year":1984
+    ,"targettype":"Airports & Aircraft"
+    ,"count":39
+  },
+  {
+     "year":1984
+    ,"targettype":"Food or Water Supply"
+    ,"count":12
+  },
+  {
+     "year":1984
+    ,"targettype":"Maritime"
+    ,"count":31
+  },
+  {
+     "year":1984
+    ,"targettype":"Abortion Related"
+    ,"count":27
+  },
+  {
+     "year":1984
+    ,"targettype":"Tourists"
+    ,"count":5
+  },
+  {
+     "year":1985
+    ,"targettype":"Private Citizens & Property"
+    ,"count":384
+  },
+  {
+     "year":1985
+    ,"targettype":"Military"
+    ,"count":614
+  },
+  {
+     "year":1985
+    ,"targettype":"Police"
+    ,"count":309
+  },
+  {
+     "year":1985
+    ,"targettype":"Government (General)"
+    ,"count":319
+  },
+  {
+     "year":1985
+    ,"targettype":"Business"
+    ,"count":417
+  },
+  {
+     "year":1985
+    ,"targettype":"Unknown"
+    ,"count":20
+  },
+  {
+     "year":1985
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":30
+  },
+  {
+     "year":1985
+    ,"targettype":"Transportation"
+    ,"count":158
+  },
+  {
+     "year":1985
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":16
+  },
+  {
+     "year":1985
+    ,"targettype":"Educational Institution"
+    ,"count":46
+  },
+  {
+     "year":1985
+    ,"targettype":"Utilities"
+    ,"count":359
+  },
+  {
+     "year":1985
+    ,"targettype":"Violent Political Party"
+    ,"count":3
+  },
+  {
+     "year":1985
+    ,"targettype":"Journalists & Media"
+    ,"count":56
+  },
+  {
+     "year":1985
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":63
+  },
+  {
+     "year":1985
+    ,"targettype":"Other"
+    ,"count":1
+  },
+  {
+     "year":1985
+    ,"targettype":"NGO"
+    ,"count":9
+  },
+  {
+     "year":1985
+    ,"targettype":"Telecommunication"
+    ,"count":14
+  },
+  {
+     "year":1985
+    ,"targettype":"Airports & Aircraft"
+    ,"count":52
+  },
+  {
+     "year":1985
+    ,"targettype":"Food or Water Supply"
+    ,"count":18
+  },
+  {
+     "year":1985
+    ,"targettype":"Maritime"
+    ,"count":12
+  },
+  {
+     "year":1985
+    ,"targettype":"Abortion Related"
+    ,"count":14
+  },
+  {
+     "year":1985
+    ,"targettype":"Tourists"
+    ,"count":1
+  },
+  {
+     "year":1986
+    ,"targettype":"Private Citizens & Property"
+    ,"count":489
+  },
+  {
+     "year":1986
+    ,"targettype":"Military"
+    ,"count":463
+  },
+  {
+     "year":1986
+    ,"targettype":"Police"
+    ,"count":303
+  },
+  {
+     "year":1986
+    ,"targettype":"Government (General)"
+    ,"count":362
+  },
+  {
+     "year":1986
+    ,"targettype":"Business"
+    ,"count":522
+  },
+  {
+     "year":1986
+    ,"targettype":"Unknown"
+    ,"count":21
+  },
+  {
+     "year":1986
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":42
+  },
+  {
+     "year":1986
+    ,"targettype":"Transportation"
+    ,"count":161
+  },
+  {
+     "year":1986
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":20
+  },
+  {
+     "year":1986
+    ,"targettype":"Educational Institution"
+    ,"count":44
+  },
+  {
+     "year":1986
+    ,"targettype":"Utilities"
+    ,"count":220
+  },
+  {
+     "year":1986
+    ,"targettype":"Violent Political Party"
+    ,"count":3
+  },
+  {
+     "year":1986
+    ,"targettype":"Journalists & Media"
+    ,"count":36
+  },
+  {
+     "year":1986
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":78
+  },
+  {
+     "year":1986
+    ,"targettype":"Other"
+    ,"count":1
+  },
+  {
+     "year":1986
+    ,"targettype":"NGO"
+    ,"count":5
+  },
+  {
+     "year":1986
+    ,"targettype":"Telecommunication"
+    ,"count":15
+  },
+  {
+     "year":1986
+    ,"targettype":"Airports & Aircraft"
+    ,"count":34
+  },
+  {
+     "year":1986
+    ,"targettype":"Food or Water Supply"
+    ,"count":17
+  },
+  {
+     "year":1986
+    ,"targettype":"Maritime"
+    ,"count":5
+  },
+  {
+     "year":1986
+    ,"targettype":"Abortion Related"
+    ,"count":13
+  },
+  {
+     "year":1986
+    ,"targettype":"Tourists"
+    ,"count":6
+  },
+  {
+     "year":1987
+    ,"targettype":"Private Citizens & Property"
+    ,"count":511
+  },
+  {
+     "year":1987
+    ,"targettype":"Military"
+    ,"count":496
+  },
+  {
+     "year":1987
+    ,"targettype":"Police"
+    ,"count":337
+  },
+  {
+     "year":1987
+    ,"targettype":"Government (General)"
+    ,"count":513
+  },
+  {
+     "year":1987
+    ,"targettype":"Business"
+    ,"count":502
+  },
+  {
+     "year":1987
+    ,"targettype":"Unknown"
+    ,"count":9
+  },
+  {
+     "year":1987
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":46
+  },
+  {
+     "year":1987
+    ,"targettype":"Transportation"
+    ,"count":201
+  },
+  {
+     "year":1987
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":37
+  },
+  {
+     "year":1987
+    ,"targettype":"Educational Institution"
+    ,"count":37
+  },
+  {
+     "year":1987
+    ,"targettype":"Utilities"
+    ,"count":256
+  },
+  {
+     "year":1987
+    ,"targettype":"Violent Political Party"
+    ,"count":15
+  },
+  {
+     "year":1987
+    ,"targettype":"Journalists & Media"
+    ,"count":88
+  },
+  {
+     "year":1987
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":46
+  },
+  {
+     "year":1987
+    ,"targettype":"Other"
+    ,"count":7
+  },
+  {
+     "year":1987
+    ,"targettype":"NGO"
+    ,"count":10
+  },
+  {
+     "year":1987
+    ,"targettype":"Telecommunication"
+    ,"count":21
+  },
+  {
+     "year":1987
+    ,"targettype":"Airports & Aircraft"
+    ,"count":19
+  },
+  {
+     "year":1987
+    ,"targettype":"Food or Water Supply"
+    ,"count":5
+  },
+  {
+     "year":1987
+    ,"targettype":"Maritime"
+    ,"count":10
+  },
+  {
+     "year":1987
+    ,"targettype":"Abortion Related"
+    ,"count":11
+  },
+  {
+     "year":1987
+    ,"targettype":"Tourists"
+    ,"count":7
+  },
+  {
+     "year":1988
+    ,"targettype":"Private Citizens & Property"
+    ,"count":620
+  },
+  {
+     "year":1988
+    ,"targettype":"Military"
+    ,"count":592
+  },
+  {
+     "year":1988
+    ,"targettype":"Police"
+    ,"count":477
+  },
+  {
+     "year":1988
+    ,"targettype":"Government (General)"
+    ,"count":621
+  },
+  {
+     "year":1988
+    ,"targettype":"Business"
+    ,"count":502
+  },
+  {
+     "year":1988
+    ,"targettype":"Unknown"
+    ,"count":3
+  },
+  {
+     "year":1988
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":55
+  },
+  {
+     "year":1988
+    ,"targettype":"Transportation"
+    ,"count":214
+  },
+  {
+     "year":1988
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":28
+  },
+  {
+     "year":1988
+    ,"targettype":"Educational Institution"
+    ,"count":51
+  },
+  {
+     "year":1988
+    ,"targettype":"Utilities"
+    ,"count":289
+  },
+  {
+     "year":1988
+    ,"targettype":"Violent Political Party"
+    ,"count":62
+  },
+  {
+     "year":1988
+    ,"targettype":"Journalists & Media"
+    ,"count":69
+  },
+  {
+     "year":1988
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":58
+  },
+  {
+     "year":1988
+    ,"targettype":"Other"
+    ,"count":0
+  },
+  {
+     "year":1988
+    ,"targettype":"NGO"
+    ,"count":16
+  },
+  {
+     "year":1988
+    ,"targettype":"Telecommunication"
+    ,"count":16
+  },
+  {
+     "year":1988
+    ,"targettype":"Airports & Aircraft"
+    ,"count":23
+  },
+  {
+     "year":1988
+    ,"targettype":"Food or Water Supply"
+    ,"count":5
+  },
+  {
+     "year":1988
+    ,"targettype":"Maritime"
+    ,"count":10
+  },
+  {
+     "year":1988
+    ,"targettype":"Abortion Related"
+    ,"count":7
+  },
+  {
+     "year":1988
+    ,"targettype":"Tourists"
+    ,"count":3
+  },
+  {
+     "year":1989
+    ,"targettype":"Private Citizens & Property"
+    ,"count":772
+  },
+  {
+     "year":1989
+    ,"targettype":"Military"
+    ,"count":665
+  },
+  {
+     "year":1989
+    ,"targettype":"Police"
+    ,"count":540
+  },
+  {
+     "year":1989
+    ,"targettype":"Government (General)"
+    ,"count":663
+  },
+  {
+     "year":1989
+    ,"targettype":"Business"
+    ,"count":637
+  },
+  {
+     "year":1989
+    ,"targettype":"Unknown"
+    ,"count":8
+  },
+  {
+     "year":1989
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":65
+  },
+  {
+     "year":1989
+    ,"targettype":"Transportation"
+    ,"count":226
+  },
+  {
+     "year":1989
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":36
+  },
+  {
+     "year":1989
+    ,"targettype":"Educational Institution"
+    ,"count":106
+  },
+  {
+     "year":1989
+    ,"targettype":"Utilities"
+    ,"count":260
+  },
+  {
+     "year":1989
+    ,"targettype":"Violent Political Party"
+    ,"count":70
+  },
+  {
+     "year":1989
+    ,"targettype":"Journalists & Media"
+    ,"count":89
+  },
+  {
+     "year":1989
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":69
+  },
+  {
+     "year":1989
+    ,"targettype":"Other"
+    ,"count":2
+  },
+  {
+     "year":1989
+    ,"targettype":"NGO"
+    ,"count":13
+  },
+  {
+     "year":1989
+    ,"targettype":"Telecommunication"
+    ,"count":29
+  },
+  {
+     "year":1989
+    ,"targettype":"Airports & Aircraft"
+    ,"count":31
+  },
+  {
+     "year":1989
+    ,"targettype":"Food or Water Supply"
+    ,"count":10
+  },
+  {
+     "year":1989
+    ,"targettype":"Maritime"
+    ,"count":14
+  },
+  {
+     "year":1989
+    ,"targettype":"Abortion Related"
+    ,"count":8
+  },
+  {
+     "year":1989
+    ,"targettype":"Tourists"
+    ,"count":9
+  },
+  {
+     "year":1990
+    ,"targettype":"Private Citizens & Property"
+    ,"count":757
+  },
+  {
+     "year":1990
+    ,"targettype":"Military"
+    ,"count":452
+  },
+  {
+     "year":1990
+    ,"targettype":"Police"
+    ,"count":533
+  },
+  {
+     "year":1990
+    ,"targettype":"Government (General)"
+    ,"count":514
+  },
+  {
+     "year":1990
+    ,"targettype":"Business"
+    ,"count":525
+  },
+  {
+     "year":1990
+    ,"targettype":"Unknown"
+    ,"count":3
+  },
+  {
+     "year":1990
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":106
+  },
+  {
+     "year":1990
+    ,"targettype":"Transportation"
+    ,"count":250
+  },
+  {
+     "year":1990
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":31
+  },
+  {
+     "year":1990
+    ,"targettype":"Educational Institution"
+    ,"count":78
+  },
+  {
+     "year":1990
+    ,"targettype":"Utilities"
+    ,"count":378
+  },
+  {
+     "year":1990
+    ,"targettype":"Violent Political Party"
+    ,"count":58
+  },
+  {
+     "year":1990
+    ,"targettype":"Journalists & Media"
+    ,"count":54
+  },
+  {
+     "year":1990
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":58
+  },
+  {
+     "year":1990
+    ,"targettype":"Other"
+    ,"count":4
+  },
+  {
+     "year":1990
+    ,"targettype":"NGO"
+    ,"count":8
+  },
+  {
+     "year":1990
+    ,"targettype":"Telecommunication"
+    ,"count":22
+  },
+  {
+     "year":1990
+    ,"targettype":"Airports & Aircraft"
+    ,"count":22
+  },
+  {
+     "year":1990
+    ,"targettype":"Food or Water Supply"
+    ,"count":14
+  },
+  {
+     "year":1990
+    ,"targettype":"Maritime"
+    ,"count":3
+  },
+  {
+     "year":1990
+    ,"targettype":"Abortion Related"
+    ,"count":8
+  },
+  {
+     "year":1990
+    ,"targettype":"Tourists"
+    ,"count":9
+  },
+  {
+     "year":1991
+    ,"targettype":"Private Citizens & Property"
+    ,"count":687
+  },
+  {
+     "year":1991
+    ,"targettype":"Military"
+    ,"count":720
+  },
+  {
+     "year":1991
+    ,"targettype":"Police"
+    ,"count":551
+  },
+  {
+     "year":1991
+    ,"targettype":"Government (General)"
+    ,"count":526
+  },
+  {
+     "year":1991
+    ,"targettype":"Business"
+    ,"count":918
+  },
+  {
+     "year":1991
+    ,"targettype":"Unknown"
+    ,"count":2
+  },
+  {
+     "year":1991
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":107
+  },
+  {
+     "year":1991
+    ,"targettype":"Transportation"
+    ,"count":212
+  },
+  {
+     "year":1991
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":51
+  },
+  {
+     "year":1991
+    ,"targettype":"Educational Institution"
+    ,"count":51
+  },
+  {
+     "year":1991
+    ,"targettype":"Utilities"
+    ,"count":389
+  },
+  {
+     "year":1991
+    ,"targettype":"Violent Political Party"
+    ,"count":75
+  },
+  {
+     "year":1991
+    ,"targettype":"Journalists & Media"
+    ,"count":76
+  },
+  {
+     "year":1991
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":153
+  },
+  {
+     "year":1991
+    ,"targettype":"Other"
+    ,"count":2
+  },
+  {
+     "year":1991
+    ,"targettype":"NGO"
+    ,"count":24
+  },
+  {
+     "year":1991
+    ,"targettype":"Telecommunication"
+    ,"count":18
+  },
+  {
+     "year":1991
+    ,"targettype":"Airports & Aircraft"
+    ,"count":63
+  },
+  {
+     "year":1991
+    ,"targettype":"Food or Water Supply"
+    ,"count":8
+  },
+  {
+     "year":1991
+    ,"targettype":"Maritime"
+    ,"count":14
+  },
+  {
+     "year":1991
+    ,"targettype":"Abortion Related"
+    ,"count":12
+  },
+  {
+     "year":1991
+    ,"targettype":"Tourists"
+    ,"count":24
+  },
+  {
+     "year":1992
+    ,"targettype":"Private Citizens & Property"
+    ,"count":951
+  },
+  {
+     "year":1992
+    ,"targettype":"Military"
+    ,"count":556
+  },
+  {
+     "year":1992
+    ,"targettype":"Police"
+    ,"count":775
+  },
+  {
+     "year":1992
+    ,"targettype":"Government (General)"
+    ,"count":615
+  },
+  {
+     "year":1992
+    ,"targettype":"Business"
+    ,"count":835
+  },
+  {
+     "year":1992
+    ,"targettype":"Unknown"
+    ,"count":30
+  },
+  {
+     "year":1992
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":131
+  },
+  {
+     "year":1992
+    ,"targettype":"Transportation"
+    ,"count":302
+  },
+  {
+     "year":1992
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":65
+  },
+  {
+     "year":1992
+    ,"targettype":"Educational Institution"
+    ,"count":87
+  },
+  {
+     "year":1992
+    ,"targettype":"Utilities"
+    ,"count":158
+  },
+  {
+     "year":1992
+    ,"targettype":"Violent Political Party"
+    ,"count":82
+  },
+  {
+     "year":1992
+    ,"targettype":"Journalists & Media"
+    ,"count":96
+  },
+  {
+     "year":1992
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":192
+  },
+  {
+     "year":1992
+    ,"targettype":"Other"
+    ,"count":4
+  },
+  {
+     "year":1992
+    ,"targettype":"NGO"
+    ,"count":24
+  },
+  {
+     "year":1992
+    ,"targettype":"Telecommunication"
+    ,"count":39
+  },
+  {
+     "year":1992
+    ,"targettype":"Airports & Aircraft"
+    ,"count":64
+  },
+  {
+     "year":1992
+    ,"targettype":"Food or Water Supply"
+    ,"count":9
+  },
+  {
+     "year":1992
+    ,"targettype":"Maritime"
+    ,"count":22
+  },
+  {
+     "year":1992
+    ,"targettype":"Abortion Related"
+    ,"count":18
+  },
+  {
+     "year":1992
+    ,"targettype":"Tourists"
+    ,"count":18
+  },
+  {
+     "year":1994
+    ,"targettype":"Private Citizens & Property"
+    ,"count":753
+  },
+  {
+     "year":1994
+    ,"targettype":"Military"
+    ,"count":364
+  },
+  {
+     "year":1994
+    ,"targettype":"Police"
+    ,"count":382
+  },
+  {
+     "year":1994
+    ,"targettype":"Government (General)"
+    ,"count":475
+  },
+  {
+     "year":1994
+    ,"targettype":"Business"
+    ,"count":545
+  },
+  {
+     "year":1994
+    ,"targettype":"Unknown"
+    ,"count":36
+  },
+  {
+     "year":1994
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":94
+  },
+  {
+     "year":1994
+    ,"targettype":"Transportation"
+    ,"count":160
+  },
+  {
+     "year":1994
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":57
+  },
+  {
+     "year":1994
+    ,"targettype":"Educational Institution"
+    ,"count":78
+  },
+  {
+     "year":1994
+    ,"targettype":"Utilities"
+    ,"count":65
+  },
+  {
+     "year":1994
+    ,"targettype":"Violent Political Party"
+    ,"count":96
+  },
+  {
+     "year":1994
+    ,"targettype":"Journalists & Media"
+    ,"count":78
+  },
+  {
+     "year":1994
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":117
+  },
+  {
+     "year":1994
+    ,"targettype":"Other"
+    ,"count":6
+  },
+  {
+     "year":1994
+    ,"targettype":"NGO"
+    ,"count":31
+  },
+  {
+     "year":1994
+    ,"targettype":"Telecommunication"
+    ,"count":11
+  },
+  {
+     "year":1994
+    ,"targettype":"Airports & Aircraft"
+    ,"count":36
+  },
+  {
+     "year":1994
+    ,"targettype":"Food or Water Supply"
+    ,"count":4
+  },
+  {
+     "year":1994
+    ,"targettype":"Maritime"
+    ,"count":20
+  },
+  {
+     "year":1994
+    ,"targettype":"Abortion Related"
+    ,"count":18
+  },
+  {
+     "year":1994
+    ,"targettype":"Tourists"
+    ,"count":32
+  },
+  {
+     "year":1995
+    ,"targettype":"Private Citizens & Property"
+    ,"count":788
+  },
+  {
+     "year":1995
+    ,"targettype":"Military"
+    ,"count":233
+  },
+  {
+     "year":1995
+    ,"targettype":"Police"
+    ,"count":394
+  },
+  {
+     "year":1995
+    ,"targettype":"Government (General)"
+    ,"count":389
+  },
+  {
+     "year":1995
+    ,"targettype":"Business"
+    ,"count":403
+  },
+  {
+     "year":1995
+    ,"targettype":"Unknown"
+    ,"count":100
+  },
+  {
+     "year":1995
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":76
+  },
+  {
+     "year":1995
+    ,"targettype":"Transportation"
+    ,"count":237
+  },
+  {
+     "year":1995
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":40
+  },
+  {
+     "year":1995
+    ,"targettype":"Educational Institution"
+    ,"count":50
+  },
+  {
+     "year":1995
+    ,"targettype":"Utilities"
+    ,"count":52
+  },
+  {
+     "year":1995
+    ,"targettype":"Violent Political Party"
+    ,"count":40
+  },
+  {
+     "year":1995
+    ,"targettype":"Journalists & Media"
+    ,"count":80
+  },
+  {
+     "year":1995
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":59
+  },
+  {
+     "year":1995
+    ,"targettype":"Other"
+    ,"count":15
+  },
+  {
+     "year":1995
+    ,"targettype":"NGO"
+    ,"count":30
+  },
+  {
+     "year":1995
+    ,"targettype":"Telecommunication"
+    ,"count":8
+  },
+  {
+     "year":1995
+    ,"targettype":"Airports & Aircraft"
+    ,"count":27
+  },
+  {
+     "year":1995
+    ,"targettype":"Food or Water Supply"
+    ,"count":2
+  },
+  {
+     "year":1995
+    ,"targettype":"Maritime"
+    ,"count":6
+  },
+  {
+     "year":1995
+    ,"targettype":"Abortion Related"
+    ,"count":25
+  },
+  {
+     "year":1995
+    ,"targettype":"Tourists"
+    ,"count":27
+  },
+  {
+     "year":1996
+    ,"targettype":"Private Citizens & Property"
+    ,"count":665
+  },
+  {
+     "year":1996
+    ,"targettype":"Military"
+    ,"count":199
+  },
+  {
+     "year":1996
+    ,"targettype":"Police"
+    ,"count":350
+  },
+  {
+     "year":1996
+    ,"targettype":"Government (General)"
+    ,"count":464
+  },
+  {
+     "year":1996
+    ,"targettype":"Business"
+    ,"count":423
+  },
+  {
+     "year":1996
+    ,"targettype":"Unknown"
+    ,"count":172
+  },
+  {
+     "year":1996
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":86
+  },
+  {
+     "year":1996
+    ,"targettype":"Transportation"
+    ,"count":225
+  },
+  {
+     "year":1996
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":53
+  },
+  {
+     "year":1996
+    ,"targettype":"Educational Institution"
+    ,"count":33
+  },
+  {
+     "year":1996
+    ,"targettype":"Utilities"
+    ,"count":88
+  },
+  {
+     "year":1996
+    ,"targettype":"Violent Political Party"
+    ,"count":57
+  },
+  {
+     "year":1996
+    ,"targettype":"Journalists & Media"
+    ,"count":59
+  },
+  {
+     "year":1996
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":63
+  },
+  {
+     "year":1996
+    ,"targettype":"Other"
+    ,"count":15
+  },
+  {
+     "year":1996
+    ,"targettype":"NGO"
+    ,"count":24
+  },
+  {
+     "year":1996
+    ,"targettype":"Telecommunication"
+    ,"count":11
+  },
+  {
+     "year":1996
+    ,"targettype":"Airports & Aircraft"
+    ,"count":21
+  },
+  {
+     "year":1996
+    ,"targettype":"Food or Water Supply"
+    ,"count":5
+  },
+  {
+     "year":1996
+    ,"targettype":"Maritime"
+    ,"count":10
+  },
+  {
+     "year":1996
+    ,"targettype":"Abortion Related"
+    ,"count":11
+  },
+  {
+     "year":1996
+    ,"targettype":"Tourists"
+    ,"count":22
+  },
+  {
+     "year":1997
+    ,"targettype":"Private Citizens & Property"
+    ,"count":874
+  },
+  {
+     "year":1997
+    ,"targettype":"Military"
+    ,"count":161
+  },
+  {
+     "year":1997
+    ,"targettype":"Police"
+    ,"count":306
+  },
+  {
+     "year":1997
+    ,"targettype":"Government (General)"
+    ,"count":510
+  },
+  {
+     "year":1997
+    ,"targettype":"Business"
+    ,"count":437
+  },
+  {
+     "year":1997
+    ,"targettype":"Unknown"
+    ,"count":172
+  },
+  {
+     "year":1997
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":101
+  },
+  {
+     "year":1997
+    ,"targettype":"Transportation"
+    ,"count":182
+  },
+  {
+     "year":1997
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":49
+  },
+  {
+     "year":1997
+    ,"targettype":"Educational Institution"
+    ,"count":75
+  },
+  {
+     "year":1997
+    ,"targettype":"Utilities"
+    ,"count":53
+  },
+  {
+     "year":1997
+    ,"targettype":"Violent Political Party"
+    ,"count":34
+  },
+  {
+     "year":1997
+    ,"targettype":"Journalists & Media"
+    ,"count":72
+  },
+  {
+     "year":1997
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":55
+  },
+  {
+     "year":1997
+    ,"targettype":"Other"
+    ,"count":17
+  },
+  {
+     "year":1997
+    ,"targettype":"NGO"
+    ,"count":28
+  },
+  {
+     "year":1997
+    ,"targettype":"Telecommunication"
+    ,"count":3
+  },
+  {
+     "year":1997
+    ,"targettype":"Airports & Aircraft"
+    ,"count":25
+  },
+  {
+     "year":1997
+    ,"targettype":"Food or Water Supply"
+    ,"count":1
+  },
+  {
+     "year":1997
+    ,"targettype":"Maritime"
+    ,"count":7
+  },
+  {
+     "year":1997
+    ,"targettype":"Abortion Related"
+    ,"count":17
+  },
+  {
+     "year":1997
+    ,"targettype":"Tourists"
+    ,"count":21
+  },
+  {
+     "year":1998
+    ,"targettype":"Private Citizens & Property"
+    ,"count":280
+  },
+  {
+     "year":1998
+    ,"targettype":"Military"
+    ,"count":92
+  },
+  {
+     "year":1998
+    ,"targettype":"Police"
+    ,"count":98
+  },
+  {
+     "year":1998
+    ,"targettype":"Government (General)"
+    ,"count":122
+  },
+  {
+     "year":1998
+    ,"targettype":"Business"
+    ,"count":127
+  },
+  {
+     "year":1998
+    ,"targettype":"Unknown"
+    ,"count":4
+  },
+  {
+     "year":1998
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":42
+  },
+  {
+     "year":1998
+    ,"targettype":"Transportation"
+    ,"count":61
+  },
+  {
+     "year":1998
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":6
+  },
+  {
+     "year":1998
+    ,"targettype":"Educational Institution"
+    ,"count":12
+  },
+  {
+     "year":1998
+    ,"targettype":"Utilities"
+    ,"count":17
+  },
+  {
+     "year":1998
+    ,"targettype":"Violent Political Party"
+    ,"count":4
+  },
+  {
+     "year":1998
+    ,"targettype":"Journalists & Media"
+    ,"count":8
+  },
+  {
+     "year":1998
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":22
+  },
+  {
+     "year":1998
+    ,"targettype":"Other"
+    ,"count":5
+  },
+  {
+     "year":1998
+    ,"targettype":"NGO"
+    ,"count":4
+  },
+  {
+     "year":1998
+    ,"targettype":"Telecommunication"
+    ,"count":1
+  },
+  {
+     "year":1998
+    ,"targettype":"Airports & Aircraft"
+    ,"count":7
+  },
+  {
+     "year":1998
+    ,"targettype":"Food or Water Supply"
+    ,"count":3
+  },
+  {
+     "year":1998
+    ,"targettype":"Maritime"
+    ,"count":2
+  },
+  {
+     "year":1998
+    ,"targettype":"Abortion Related"
+    ,"count":9
+  },
+  {
+     "year":1998
+    ,"targettype":"Tourists"
+    ,"count":7
+  },
+  {
+     "year":1999
+    ,"targettype":"Private Citizens & Property"
+    ,"count":381
+  },
+  {
+     "year":1999
+    ,"targettype":"Military"
+    ,"count":158
+  },
+  {
+     "year":1999
+    ,"targettype":"Police"
+    ,"count":110
+  },
+  {
+     "year":1999
+    ,"targettype":"Government (General)"
+    ,"count":200
+  },
+  {
+     "year":1999
+    ,"targettype":"Business"
+    ,"count":184
+  },
+  {
+     "year":1999
+    ,"targettype":"Unknown"
+    ,"count":12
+  },
+  {
+     "year":1999
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":44
+  },
+  {
+     "year":1999
+    ,"targettype":"Transportation"
+    ,"count":58
+  },
+  {
+     "year":1999
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":26
+  },
+  {
+     "year":1999
+    ,"targettype":"Educational Institution"
+    ,"count":40
+  },
+  {
+     "year":1999
+    ,"targettype":"Utilities"
+    ,"count":25
+  },
+  {
+     "year":1999
+    ,"targettype":"Violent Political Party"
+    ,"count":12
+  },
+  {
+     "year":1999
+    ,"targettype":"Journalists & Media"
+    ,"count":33
+  },
+  {
+     "year":1999
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":51
+  },
+  {
+     "year":1999
+    ,"targettype":"Other"
+    ,"count":4
+  },
+  {
+     "year":1999
+    ,"targettype":"NGO"
+    ,"count":16
+  },
+  {
+     "year":1999
+    ,"targettype":"Telecommunication"
+    ,"count":5
+  },
+  {
+     "year":1999
+    ,"targettype":"Airports & Aircraft"
+    ,"count":13
+  },
+  {
+     "year":1999
+    ,"targettype":"Food or Water Supply"
+    ,"count":4
+  },
+  {
+     "year":1999
+    ,"targettype":"Maritime"
+    ,"count":7
+  },
+  {
+     "year":1999
+    ,"targettype":"Abortion Related"
+    ,"count":9
+  },
+  {
+     "year":1999
+    ,"targettype":"Tourists"
+    ,"count":4
+  },
+  {
+     "year":2000
+    ,"targettype":"Private Citizens & Property"
+    ,"count":538
+  },
+  {
+     "year":2000
+    ,"targettype":"Military"
+    ,"count":211
+  },
+  {
+     "year":2000
+    ,"targettype":"Police"
+    ,"count":162
+  },
+  {
+     "year":2000
+    ,"targettype":"Government (General)"
+    ,"count":274
+  },
+  {
+     "year":2000
+    ,"targettype":"Business"
+    ,"count":206
+  },
+  {
+     "year":2000
+    ,"targettype":"Unknown"
+    ,"count":9
+  },
+  {
+     "year":2000
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":99
+  },
+  {
+     "year":2000
+    ,"targettype":"Transportation"
+    ,"count":81
+  },
+  {
+     "year":2000
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":10
+  },
+  {
+     "year":2000
+    ,"targettype":"Educational Institution"
+    ,"count":20
+  },
+  {
+     "year":2000
+    ,"targettype":"Utilities"
+    ,"count":22
+  },
+  {
+     "year":2000
+    ,"targettype":"Violent Political Party"
+    ,"count":10
+  },
+  {
+     "year":2000
+    ,"targettype":"Journalists & Media"
+    ,"count":43
+  },
+  {
+     "year":2000
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":54
+  },
+  {
+     "year":2000
+    ,"targettype":"Other"
+    ,"count":8
+  },
+  {
+     "year":2000
+    ,"targettype":"NGO"
+    ,"count":15
+  },
+  {
+     "year":2000
+    ,"targettype":"Telecommunication"
+    ,"count":8
+  },
+  {
+     "year":2000
+    ,"targettype":"Airports & Aircraft"
+    ,"count":15
+  },
+  {
+     "year":2000
+    ,"targettype":"Food or Water Supply"
+    ,"count":2
+  },
+  {
+     "year":2000
+    ,"targettype":"Maritime"
+    ,"count":6
+  },
+  {
+     "year":2000
+    ,"targettype":"Abortion Related"
+    ,"count":6
+  },
+  {
+     "year":2000
+    ,"targettype":"Tourists"
+    ,"count":14
+  },
+  {
+     "year":2001
+    ,"targettype":"Private Citizens & Property"
+    ,"count":674
+  },
+  {
+     "year":2001
+    ,"targettype":"Military"
+    ,"count":128
+  },
+  {
+     "year":2001
+    ,"targettype":"Police"
+    ,"count":260
+  },
+  {
+     "year":2001
+    ,"targettype":"Government (General)"
+    ,"count":252
+  },
+  {
+     "year":2001
+    ,"targettype":"Business"
+    ,"count":198
+  },
+  {
+     "year":2001
+    ,"targettype":"Unknown"
+    ,"count":10
+  },
+  {
+     "year":2001
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":46
+  },
+  {
+     "year":2001
+    ,"targettype":"Transportation"
+    ,"count":95
+  },
+  {
+     "year":2001
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":9
+  },
+  {
+     "year":2001
+    ,"targettype":"Educational Institution"
+    ,"count":47
+  },
+  {
+     "year":2001
+    ,"targettype":"Utilities"
+    ,"count":24
+  },
+  {
+     "year":2001
+    ,"targettype":"Violent Political Party"
+    ,"count":10
+  },
+  {
+     "year":2001
+    ,"targettype":"Journalists & Media"
+    ,"count":44
+  },
+  {
+     "year":2001
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":29
+  },
+  {
+     "year":2001
+    ,"targettype":"Other"
+    ,"count":4
+  },
+  {
+     "year":2001
+    ,"targettype":"NGO"
+    ,"count":18
+  },
+  {
+     "year":2001
+    ,"targettype":"Telecommunication"
+    ,"count":11
+  },
+  {
+     "year":2001
+    ,"targettype":"Airports & Aircraft"
+    ,"count":23
+  },
+  {
+     "year":2001
+    ,"targettype":"Food or Water Supply"
+    ,"count":3
+  },
+  {
+     "year":2001
+    ,"targettype":"Maritime"
+    ,"count":7
+  },
+  {
+     "year":2001
+    ,"targettype":"Abortion Related"
+    ,"count":2
+  },
+  {
+     "year":2001
+    ,"targettype":"Tourists"
+    ,"count":14
+  },
+  {
+     "year":2002
+    ,"targettype":"Private Citizens & Property"
+    ,"count":397
+  },
+  {
+     "year":2002
+    ,"targettype":"Military"
+    ,"count":178
+  },
+  {
+     "year":2002
+    ,"targettype":"Police"
+    ,"count":118
+  },
+  {
+     "year":2002
+    ,"targettype":"Government (General)"
+    ,"count":178
+  },
+  {
+     "year":2002
+    ,"targettype":"Business"
+    ,"count":154
+  },
+  {
+     "year":2002
+    ,"targettype":"Unknown"
+    ,"count":21
+  },
+  {
+     "year":2002
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":43
+  },
+  {
+     "year":2002
+    ,"targettype":"Transportation"
+    ,"count":93
+  },
+  {
+     "year":2002
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":6
+  },
+  {
+     "year":2002
+    ,"targettype":"Educational Institution"
+    ,"count":28
+  },
+  {
+     "year":2002
+    ,"targettype":"Utilities"
+    ,"count":18
+  },
+  {
+     "year":2002
+    ,"targettype":"Violent Political Party"
+    ,"count":2
+  },
+  {
+     "year":2002
+    ,"targettype":"Journalists & Media"
+    ,"count":24
+  },
+  {
+     "year":2002
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":25
+  },
+  {
+     "year":2002
+    ,"targettype":"Other"
+    ,"count":1
+  },
+  {
+     "year":2002
+    ,"targettype":"NGO"
+    ,"count":8
+  },
+  {
+     "year":2002
+    ,"targettype":"Telecommunication"
+    ,"count":7
+  },
+  {
+     "year":2002
+    ,"targettype":"Airports & Aircraft"
+    ,"count":18
+  },
+  {
+     "year":2002
+    ,"targettype":"Food or Water Supply"
+    ,"count":1
+  },
+  {
+     "year":2002
+    ,"targettype":"Maritime"
+    ,"count":3
+  },
+  {
+     "year":2002
+    ,"targettype":"Abortion Related"
+    ,"count":0
+  },
+  {
+     "year":2002
+    ,"targettype":"Tourists"
+    ,"count":9
+  },
+  {
+     "year":2003
+    ,"targettype":"Private Citizens & Property"
+    ,"count":259
+  },
+  {
+     "year":2003
+    ,"targettype":"Military"
+    ,"count":215
+  },
+  {
+     "year":2003
+    ,"targettype":"Police"
+    ,"count":143
+  },
+  {
+     "year":2003
+    ,"targettype":"Government (General)"
+    ,"count":182
+  },
+  {
+     "year":2003
+    ,"targettype":"Business"
+    ,"count":146
+  },
+  {
+     "year":2003
+    ,"targettype":"Unknown"
+    ,"count":15
+  },
+  {
+     "year":2003
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":31
+  },
+  {
+     "year":2003
+    ,"targettype":"Transportation"
+    ,"count":63
+  },
+  {
+     "year":2003
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":8
+  },
+  {
+     "year":2003
+    ,"targettype":"Educational Institution"
+    ,"count":25
+  },
+  {
+     "year":2003
+    ,"targettype":"Utilities"
+    ,"count":47
+  },
+  {
+     "year":2003
+    ,"targettype":"Violent Political Party"
+    ,"count":12
+  },
+  {
+     "year":2003
+    ,"targettype":"Journalists & Media"
+    ,"count":10
+  },
+  {
+     "year":2003
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":45
+  },
+  {
+     "year":2003
+    ,"targettype":"Other"
+    ,"count":3
+  },
+  {
+     "year":2003
+    ,"targettype":"NGO"
+    ,"count":18
+  },
+  {
+     "year":2003
+    ,"targettype":"Telecommunication"
+    ,"count":15
+  },
+  {
+     "year":2003
+    ,"targettype":"Airports & Aircraft"
+    ,"count":8
+  },
+  {
+     "year":2003
+    ,"targettype":"Food or Water Supply"
+    ,"count":3
+  },
+  {
+     "year":2003
+    ,"targettype":"Maritime"
+    ,"count":2
+  },
+  {
+     "year":2003
+    ,"targettype":"Abortion Related"
+    ,"count":2
+  },
+  {
+     "year":2003
+    ,"targettype":"Tourists"
+    ,"count":10
+  },
+  {
+     "year":2004
+    ,"targettype":"Private Citizens & Property"
+    ,"count":233
+  },
+  {
+     "year":2004
+    ,"targettype":"Military"
+    ,"count":179
+  },
+  {
+     "year":2004
+    ,"targettype":"Police"
+    ,"count":176
+  },
+  {
+     "year":2004
+    ,"targettype":"Government (General)"
+    ,"count":164
+  },
+  {
+     "year":2004
+    ,"targettype":"Business"
+    ,"count":123
+  },
+  {
+     "year":2004
+    ,"targettype":"Unknown"
+    ,"count":18
+  },
+  {
+     "year":2004
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":47
+  },
+  {
+     "year":2004
+    ,"targettype":"Transportation"
+    ,"count":51
+  },
+  {
+     "year":2004
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":4
+  },
+  {
+     "year":2004
+    ,"targettype":"Educational Institution"
+    ,"count":24
+  },
+  {
+     "year":2004
+    ,"targettype":"Utilities"
+    ,"count":32
+  },
+  {
+     "year":2004
+    ,"targettype":"Violent Political Party"
+    ,"count":10
+  },
+  {
+     "year":2004
+    ,"targettype":"Journalists & Media"
+    ,"count":25
+  },
+  {
+     "year":2004
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":33
+  },
+  {
+     "year":2004
+    ,"targettype":"Other"
+    ,"count":5
+  },
+  {
+     "year":2004
+    ,"targettype":"NGO"
+    ,"count":19
+  },
+  {
+     "year":2004
+    ,"targettype":"Telecommunication"
+    ,"count":1
+  },
+  {
+     "year":2004
+    ,"targettype":"Airports & Aircraft"
+    ,"count":6
+  },
+  {
+     "year":2004
+    ,"targettype":"Food or Water Supply"
+    ,"count":0
+  },
+  {
+     "year":2004
+    ,"targettype":"Maritime"
+    ,"count":5
+  },
+  {
+     "year":2004
+    ,"targettype":"Abortion Related"
+    ,"count":1
+  },
+  {
+     "year":2004
+    ,"targettype":"Tourists"
+    ,"count":5
+  },
+  {
+     "year":2005
+    ,"targettype":"Private Citizens & Property"
+    ,"count":444
+  },
+  {
+     "year":2005
+    ,"targettype":"Military"
+    ,"count":290
+  },
+  {
+     "year":2005
+    ,"targettype":"Police"
+    ,"count":374
+  },
+  {
+     "year":2005
+    ,"targettype":"Government (General)"
+    ,"count":329
+  },
+  {
+     "year":2005
+    ,"targettype":"Business"
+    ,"count":158
+  },
+  {
+     "year":2005
+    ,"targettype":"Unknown"
+    ,"count":8
+  },
+  {
+     "year":2005
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":86
+  },
+  {
+     "year":2005
+    ,"targettype":"Transportation"
+    ,"count":71
+  },
+  {
+     "year":2005
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":18
+  },
+  {
+     "year":2005
+    ,"targettype":"Educational Institution"
+    ,"count":58
+  },
+  {
+     "year":2005
+    ,"targettype":"Utilities"
+    ,"count":50
+  },
+  {
+     "year":2005
+    ,"targettype":"Violent Political Party"
+    ,"count":9
+  },
+  {
+     "year":2005
+    ,"targettype":"Journalists & Media"
+    ,"count":24
+  },
+  {
+     "year":2005
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":39
+  },
+  {
+     "year":2005
+    ,"targettype":"Other"
+    ,"count":3
+  },
+  {
+     "year":2005
+    ,"targettype":"NGO"
+    ,"count":10
+  },
+  {
+     "year":2005
+    ,"targettype":"Telecommunication"
+    ,"count":11
+  },
+  {
+     "year":2005
+    ,"targettype":"Airports & Aircraft"
+    ,"count":6
+  },
+  {
+     "year":2005
+    ,"targettype":"Food or Water Supply"
+    ,"count":5
+  },
+  {
+     "year":2005
+    ,"targettype":"Maritime"
+    ,"count":4
+  },
+  {
+     "year":2005
+    ,"targettype":"Abortion Related"
+    ,"count":3
+  },
+  {
+     "year":2005
+    ,"targettype":"Tourists"
+    ,"count":11
+  },
+  {
+     "year":2006
+    ,"targettype":"Private Citizens & Property"
+    ,"count":851
+  },
+  {
+     "year":2006
+    ,"targettype":"Military"
+    ,"count":229
+  },
+  {
+     "year":2006
+    ,"targettype":"Police"
+    ,"count":471
+  },
+  {
+     "year":2006
+    ,"targettype":"Government (General)"
+    ,"count":373
+  },
+  {
+     "year":2006
+    ,"targettype":"Business"
+    ,"count":247
+  },
+  {
+     "year":2006
+    ,"targettype":"Unknown"
+    ,"count":23
+  },
+  {
+     "year":2006
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":94
+  },
+  {
+     "year":2006
+    ,"targettype":"Transportation"
+    ,"count":113
+  },
+  {
+     "year":2006
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":20
+  },
+  {
+     "year":2006
+    ,"targettype":"Educational Institution"
+    ,"count":86
+  },
+  {
+     "year":2006
+    ,"targettype":"Utilities"
+    ,"count":72
+  },
+  {
+     "year":2006
+    ,"targettype":"Violent Political Party"
+    ,"count":12
+  },
+  {
+     "year":2006
+    ,"targettype":"Journalists & Media"
+    ,"count":41
+  },
+  {
+     "year":2006
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":42
+  },
+  {
+     "year":2006
+    ,"targettype":"Other"
+    ,"count":5
+  },
+  {
+     "year":2006
+    ,"targettype":"NGO"
+    ,"count":23
+  },
+  {
+     "year":2006
+    ,"targettype":"Telecommunication"
+    ,"count":17
+  },
+  {
+     "year":2006
+    ,"targettype":"Airports & Aircraft"
+    ,"count":5
+  },
+  {
+     "year":2006
+    ,"targettype":"Food or Water Supply"
+    ,"count":9
+  },
+  {
+     "year":2006
+    ,"targettype":"Maritime"
+    ,"count":3
+  },
+  {
+     "year":2006
+    ,"targettype":"Abortion Related"
+    ,"count":0
+  },
+  {
+     "year":2006
+    ,"targettype":"Tourists"
+    ,"count":15
+  },
+  {
+     "year":2007
+    ,"targettype":"Private Citizens & Property"
+    ,"count":964
+  },
+  {
+     "year":2007
+    ,"targettype":"Military"
+    ,"count":357
+  },
+  {
+     "year":2007
+    ,"targettype":"Police"
+    ,"count":717
+  },
+  {
+     "year":2007
+    ,"targettype":"Government (General)"
+    ,"count":335
+  },
+  {
+     "year":2007
+    ,"targettype":"Business"
+    ,"count":240
+  },
+  {
+     "year":2007
+    ,"targettype":"Unknown"
+    ,"count":18
+  },
+  {
+     "year":2007
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":88
+  },
+  {
+     "year":2007
+    ,"targettype":"Transportation"
+    ,"count":142
+  },
+  {
+     "year":2007
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":31
+  },
+  {
+     "year":2007
+    ,"targettype":"Educational Institution"
+    ,"count":120
+  },
+  {
+     "year":2007
+    ,"targettype":"Utilities"
+    ,"count":53
+  },
+  {
+     "year":2007
+    ,"targettype":"Violent Political Party"
+    ,"count":19
+  },
+  {
+     "year":2007
+    ,"targettype":"Journalists & Media"
+    ,"count":43
+  },
+  {
+     "year":2007
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":40
+  },
+  {
+     "year":2007
+    ,"targettype":"Other"
+    ,"count":15
+  },
+  {
+     "year":2007
+    ,"targettype":"NGO"
+    ,"count":21
+  },
+  {
+     "year":2007
+    ,"targettype":"Telecommunication"
+    ,"count":9
+  },
+  {
+     "year":2007
+    ,"targettype":"Airports & Aircraft"
+    ,"count":13
+  },
+  {
+     "year":2007
+    ,"targettype":"Food or Water Supply"
+    ,"count":1
+  },
+  {
+     "year":2007
+    ,"targettype":"Maritime"
+    ,"count":5
+  },
+  {
+     "year":2007
+    ,"targettype":"Abortion Related"
+    ,"count":3
+  },
+  {
+     "year":2007
+    ,"targettype":"Tourists"
+    ,"count":7
+  },
+  {
+     "year":2008
+    ,"targettype":"Private Citizens & Property"
+    ,"count":1594
+  },
+  {
+     "year":2008
+    ,"targettype":"Military"
+    ,"count":260
+  },
+  {
+     "year":2008
+    ,"targettype":"Police"
+    ,"count":473
+  },
+  {
+     "year":2008
+    ,"targettype":"Government (General)"
+    ,"count":717
+  },
+  {
+     "year":2008
+    ,"targettype":"Business"
+    ,"count":497
+  },
+  {
+     "year":2008
+    ,"targettype":"Unknown"
+    ,"count":68
+  },
+  {
+     "year":2008
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":111
+  },
+  {
+     "year":2008
+    ,"targettype":"Transportation"
+    ,"count":221
+  },
+  {
+     "year":2008
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":150
+  },
+  {
+     "year":2008
+    ,"targettype":"Educational Institution"
+    ,"count":162
+  },
+  {
+     "year":2008
+    ,"targettype":"Utilities"
+    ,"count":116
+  },
+  {
+     "year":2008
+    ,"targettype":"Violent Political Party"
+    ,"count":38
+  },
+  {
+     "year":2008
+    ,"targettype":"Journalists & Media"
+    ,"count":62
+  },
+  {
+     "year":2008
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":94
+  },
+  {
+     "year":2008
+    ,"targettype":"Other"
+    ,"count":21
+  },
+  {
+     "year":2008
+    ,"targettype":"NGO"
+    ,"count":61
+  },
+  {
+     "year":2008
+    ,"targettype":"Telecommunication"
+    ,"count":69
+  },
+  {
+     "year":2008
+    ,"targettype":"Airports & Aircraft"
+    ,"count":25
+  },
+  {
+     "year":2008
+    ,"targettype":"Food or Water Supply"
+    ,"count":16
+  },
+  {
+     "year":2008
+    ,"targettype":"Maritime"
+    ,"count":17
+  },
+  {
+     "year":2008
+    ,"targettype":"Abortion Related"
+    ,"count":2
+  },
+  {
+     "year":2008
+    ,"targettype":"Tourists"
+    ,"count":13
+  },
+  {
+     "year":2009
+    ,"targettype":"Private Citizens & Property"
+    ,"count":1664
+  },
+  {
+     "year":2009
+    ,"targettype":"Military"
+    ,"count":129
+  },
+  {
+     "year":2009
+    ,"targettype":"Police"
+    ,"count":436
+  },
+  {
+     "year":2009
+    ,"targettype":"Government (General)"
+    ,"count":767
+  },
+  {
+     "year":2009
+    ,"targettype":"Business"
+    ,"count":534
+  },
+  {
+     "year":2009
+    ,"targettype":"Unknown"
+    ,"count":51
+  },
+  {
+     "year":2009
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":146
+  },
+  {
+     "year":2009
+    ,"targettype":"Transportation"
+    ,"count":233
+  },
+  {
+     "year":2009
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":88
+  },
+  {
+     "year":2009
+    ,"targettype":"Educational Institution"
+    ,"count":218
+  },
+  {
+     "year":2009
+    ,"targettype":"Utilities"
+    ,"count":137
+  },
+  {
+     "year":2009
+    ,"targettype":"Violent Political Party"
+    ,"count":44
+  },
+  {
+     "year":2009
+    ,"targettype":"Journalists & Media"
+    ,"count":41
+  },
+  {
+     "year":2009
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":58
+  },
+  {
+     "year":2009
+    ,"targettype":"Other"
+    ,"count":14
+  },
+  {
+     "year":2009
+    ,"targettype":"NGO"
+    ,"count":50
+  },
+  {
+     "year":2009
+    ,"targettype":"Telecommunication"
+    ,"count":56
+  },
+  {
+     "year":2009
+    ,"targettype":"Airports & Aircraft"
+    ,"count":23
+  },
+  {
+     "year":2009
+    ,"targettype":"Food or Water Supply"
+    ,"count":7
+  },
+  {
+     "year":2009
+    ,"targettype":"Maritime"
+    ,"count":16
+  },
+  {
+     "year":2009
+    ,"targettype":"Abortion Related"
+    ,"count":1
+  },
+  {
+     "year":2009
+    ,"targettype":"Tourists"
+    ,"count":8
+  },
+  {
+     "year":2010
+    ,"targettype":"Private Citizens & Property"
+    ,"count":1474
+  },
+  {
+     "year":2010
+    ,"targettype":"Military"
+    ,"count":186
+  },
+  {
+     "year":2010
+    ,"targettype":"Police"
+    ,"count":560
+  },
+  {
+     "year":2010
+    ,"targettype":"Government (General)"
+    ,"count":916
+  },
+  {
+     "year":2010
+    ,"targettype":"Business"
+    ,"count":528
+  },
+  {
+     "year":2010
+    ,"targettype":"Unknown"
+    ,"count":22
+  },
+  {
+     "year":2010
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":125
+  },
+  {
+     "year":2010
+    ,"targettype":"Transportation"
+    ,"count":219
+  },
+  {
+     "year":2010
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":128
+  },
+  {
+     "year":2010
+    ,"targettype":"Educational Institution"
+    ,"count":263
+  },
+  {
+     "year":2010
+    ,"targettype":"Utilities"
+    ,"count":83
+  },
+  {
+     "year":2010
+    ,"targettype":"Violent Political Party"
+    ,"count":46
+  },
+  {
+     "year":2010
+    ,"targettype":"Journalists & Media"
+    ,"count":53
+  },
+  {
+     "year":2010
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":75
+  },
+  {
+     "year":2010
+    ,"targettype":"Other"
+    ,"count":10
+  },
+  {
+     "year":2010
+    ,"targettype":"NGO"
+    ,"count":36
+  },
+  {
+     "year":2010
+    ,"targettype":"Telecommunication"
+    ,"count":55
+  },
+  {
+     "year":2010
+    ,"targettype":"Airports & Aircraft"
+    ,"count":21
+  },
+  {
+     "year":2010
+    ,"targettype":"Food or Water Supply"
+    ,"count":11
+  },
+  {
+     "year":2010
+    ,"targettype":"Maritime"
+    ,"count":6
+  },
+  {
+     "year":2010
+    ,"targettype":"Abortion Related"
+    ,"count":0
+  },
+  {
+     "year":2010
+    ,"targettype":"Tourists"
+    ,"count":4
+  },
+  {
+     "year":2011
+    ,"targettype":"Private Citizens & Property"
+    ,"count":1432
+  },
+  {
+     "year":2011
+    ,"targettype":"Military"
+    ,"count":344
+  },
+  {
+     "year":2011
+    ,"targettype":"Police"
+    ,"count":727
+  },
+  {
+     "year":2011
+    ,"targettype":"Government (General)"
+    ,"count":870
+  },
+  {
+     "year":2011
+    ,"targettype":"Business"
+    ,"count":512
+  },
+  {
+     "year":2011
+    ,"targettype":"Unknown"
+    ,"count":80
+  },
+  {
+     "year":2011
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":136
+  },
+  {
+     "year":2011
+    ,"targettype":"Transportation"
+    ,"count":217
+  },
+  {
+     "year":2011
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":147
+  },
+  {
+     "year":2011
+    ,"targettype":"Educational Institution"
+    ,"count":219
+  },
+  {
+     "year":2011
+    ,"targettype":"Utilities"
+    ,"count":160
+  },
+  {
+     "year":2011
+    ,"targettype":"Violent Political Party"
+    ,"count":24
+  },
+  {
+     "year":2011
+    ,"targettype":"Journalists & Media"
+    ,"count":37
+  },
+  {
+     "year":2011
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":45
+  },
+  {
+     "year":2011
+    ,"targettype":"Other"
+    ,"count":3
+  },
+  {
+     "year":2011
+    ,"targettype":"NGO"
+    ,"count":38
+  },
+  {
+     "year":2011
+    ,"targettype":"Telecommunication"
+    ,"count":46
+  },
+  {
+     "year":2011
+    ,"targettype":"Airports & Aircraft"
+    ,"count":16
+  },
+  {
+     "year":2011
+    ,"targettype":"Food or Water Supply"
+    ,"count":10
+  },
+  {
+     "year":2011
+    ,"targettype":"Maritime"
+    ,"count":2
+  },
+  {
+     "year":2011
+    ,"targettype":"Abortion Related"
+    ,"count":0
+  },
+  {
+     "year":2011
+    ,"targettype":"Tourists"
+    ,"count":2
+  },
+  {
+     "year":2012
+    ,"targettype":"Private Citizens & Property"
+    ,"count":1715
+  },
+  {
+     "year":2012
+    ,"targettype":"Military"
+    ,"count":1790
+  },
+  {
+     "year":2012
+    ,"targettype":"Police"
+    ,"count":1706
+  },
+  {
+     "year":2012
+    ,"targettype":"Government (General)"
+    ,"count":838
+  },
+  {
+     "year":2012
+    ,"targettype":"Business"
+    ,"count":554
+  },
+  {
+     "year":2012
+    ,"targettype":"Unknown"
+    ,"count":320
+  },
+  {
+     "year":2012
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":249
+  },
+  {
+     "year":2012
+    ,"targettype":"Transportation"
+    ,"count":198
+  },
+  {
+     "year":2012
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":186
+  },
+  {
+     "year":2012
+    ,"targettype":"Educational Institution"
+    ,"count":322
+  },
+  {
+     "year":2012
+    ,"targettype":"Utilities"
+    ,"count":159
+  },
+  {
+     "year":2012
+    ,"targettype":"Violent Political Party"
+    ,"count":89
+  },
+  {
+     "year":2012
+    ,"targettype":"Journalists & Media"
+    ,"count":100
+  },
+  {
+     "year":2012
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":93
+  },
+  {
+     "year":2012
+    ,"targettype":"Other"
+    ,"count":21
+  },
+  {
+     "year":2012
+    ,"targettype":"NGO"
+    ,"count":43
+  },
+  {
+     "year":2012
+    ,"targettype":"Telecommunication"
+    ,"count":51
+  },
+  {
+     "year":2012
+    ,"targettype":"Airports & Aircraft"
+    ,"count":21
+  },
+  {
+     "year":2012
+    ,"targettype":"Food or Water Supply"
+    ,"count":18
+  },
+  {
+     "year":2012
+    ,"targettype":"Maritime"
+    ,"count":2
+  },
+  {
+     "year":2012
+    ,"targettype":"Abortion Related"
+    ,"count":4
+  },
+  {
+     "year":2012
+    ,"targettype":"Tourists"
+    ,"count":19
+  },
+  {
+     "year":2013
+    ,"targettype":"Private Citizens & Property"
+    ,"count":2497
+  },
+  {
+     "year":2013
+    ,"targettype":"Military"
+    ,"count":2318
+  },
+  {
+     "year":2013
+    ,"targettype":"Police"
+    ,"count":2361
+  },
+  {
+     "year":2013
+    ,"targettype":"Government (General)"
+    ,"count":1285
+  },
+  {
+     "year":2013
+    ,"targettype":"Business"
+    ,"count":878
+  },
+  {
+     "year":2013
+    ,"targettype":"Unknown"
+    ,"count":439
+  },
+  {
+     "year":2013
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":410
+  },
+  {
+     "year":2013
+    ,"targettype":"Transportation"
+    ,"count":238
+  },
+  {
+     "year":2013
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":284
+  },
+  {
+     "year":2013
+    ,"targettype":"Educational Institution"
+    ,"count":352
+  },
+  {
+     "year":2013
+    ,"targettype":"Utilities"
+    ,"count":240
+  },
+  {
+     "year":2013
+    ,"targettype":"Violent Political Party"
+    ,"count":195
+  },
+  {
+     "year":2013
+    ,"targettype":"Journalists & Media"
+    ,"count":176
+  },
+  {
+     "year":2013
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":112
+  },
+  {
+     "year":2013
+    ,"targettype":"Other"
+    ,"count":35
+  },
+  {
+     "year":2013
+    ,"targettype":"NGO"
+    ,"count":55
+  },
+  {
+     "year":2013
+    ,"targettype":"Telecommunication"
+    ,"count":56
+  },
+  {
+     "year":2013
+    ,"targettype":"Airports & Aircraft"
+    ,"count":22
+  },
+  {
+     "year":2013
+    ,"targettype":"Food or Water Supply"
+    ,"count":6
+  },
+  {
+     "year":2013
+    ,"targettype":"Maritime"
+    ,"count":11
+  },
+  {
+     "year":2013
+    ,"targettype":"Abortion Related"
+    ,"count":2
+  },
+  {
+     "year":2013
+    ,"targettype":"Tourists"
+    ,"count":18
+  },
+  {
+     "year":2014
+    ,"targettype":"Private Citizens & Property"
+    ,"count":4279
+  },
+  {
+     "year":2014
+    ,"targettype":"Military"
+    ,"count":3716
+  },
+  {
+     "year":2014
+    ,"targettype":"Police"
+    ,"count":2612
+  },
+  {
+     "year":2014
+    ,"targettype":"Government (General)"
+    ,"count":1566
+  },
+  {
+     "year":2014
+    ,"targettype":"Business"
+    ,"count":1095
+  },
+  {
+     "year":2014
+    ,"targettype":"Unknown"
+    ,"count":925
+  },
+  {
+     "year":2014
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":429
+  },
+  {
+     "year":2014
+    ,"targettype":"Transportation"
+    ,"count":347
+  },
+  {
+     "year":2014
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":363
+  },
+  {
+     "year":2014
+    ,"targettype":"Educational Institution"
+    ,"count":345
+  },
+  {
+     "year":2014
+    ,"targettype":"Utilities"
+    ,"count":333
+  },
+  {
+     "year":2014
+    ,"targettype":"Violent Political Party"
+    ,"count":138
+  },
+  {
+     "year":2014
+    ,"targettype":"Journalists & Media"
+    ,"count":228
+  },
+  {
+     "year":2014
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":157
+  },
+  {
+     "year":2014
+    ,"targettype":"Other"
+    ,"count":77
+  },
+  {
+     "year":2014
+    ,"targettype":"NGO"
+    ,"count":82
+  },
+  {
+     "year":2014
+    ,"targettype":"Telecommunication"
+    ,"count":48
+  },
+  {
+     "year":2014
+    ,"targettype":"Airports & Aircraft"
+    ,"count":60
+  },
+  {
+     "year":2014
+    ,"targettype":"Food or Water Supply"
+    ,"count":21
+  },
+  {
+     "year":2014
+    ,"targettype":"Maritime"
+    ,"count":13
+  },
+  {
+     "year":2014
+    ,"targettype":"Abortion Related"
+    ,"count":0
+  },
+  {
+     "year":2014
+    ,"targettype":"Tourists"
+    ,"count":6
+  },
+  {
+     "year":2015
+    ,"targettype":"Private Citizens & Property"
+    ,"count":4050
+  },
+  {
+     "year":2015
+    ,"targettype":"Military"
+    ,"count":2923
+  },
+  {
+     "year":2015
+    ,"targettype":"Police"
+    ,"count":2101
+  },
+  {
+     "year":2015
+    ,"targettype":"Government (General)"
+    ,"count":1145
+  },
+  {
+     "year":2015
+    ,"targettype":"Business"
+    ,"count":1114
+  },
+  {
+     "year":2015
+    ,"targettype":"Unknown"
+    ,"count":938
+  },
+  {
+     "year":2015
+    ,"targettype":"Religious Figures/Institutions"
+    ,"count":396
+  },
+  {
+     "year":2015
+    ,"targettype":"Transportation"
+    ,"count":384
+  },
+  {
+     "year":2015
+    ,"targettype":"Terrorists/Non-State Militia"
+    ,"count":318
+  },
+  {
+     "year":2015
+    ,"targettype":"Educational Institution"
+    ,"count":286
+  },
+  {
+     "year":2015
+    ,"targettype":"Utilities"
+    ,"count":257
+  },
+  {
+     "year":2015
+    ,"targettype":"Violent Political Party"
+    ,"count":257
+  },
+  {
+     "year":2015
+    ,"targettype":"Journalists & Media"
+    ,"count":169
+  },
+  {
+     "year":2015
+    ,"targettype":"Government (Diplomatic)"
+    ,"count":152
+  },
+  {
+     "year":2015
+    ,"targettype":"Other"
+    ,"count":145
+  },
+  {
+     "year":2015
+    ,"targettype":"NGO"
+    ,"count":59
+  },
+  {
+     "year":2015
+    ,"targettype":"Telecommunication"
+    ,"count":46
+  },
+  {
+     "year":2015
+    ,"targettype":"Airports & Aircraft"
+    ,"count":33
+  },
+  {
+     "year":2015
+    ,"targettype":"Food or Water Supply"
+    ,"count":16
+  },
+  {
+     "year":2015
+    ,"targettype":"Maritime"
+    ,"count":7
+  },
+  {
+     "year":2015
+    ,"targettype":"Abortion Related"
+    ,"count":5
+  },
+  {
+     "year":2015
+    ,"targettype":"Tourists"
+    ,"count":5
+  }]
