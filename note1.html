@@ -127,9 +127,13 @@
         return d.count;
       }));
       console.log(data_extent);
-      var targettypes = data.map(function(d) {
+      var time_extent = d3.extent(data.map(function(d) {
+        return d.count;
+      }));
+      console.log(time_extent);
+      var targettypes = unique(data.map(function(d) {
         return d.targettype;
-      });
+      }));
       console.log(targettypes);
       var years = data.map(function(d) {
         return d.year;
@@ -139,10 +143,10 @@
       yscale
         .range([0,height])
         .domain(targettypes);
-            
+
       xscale
         .range([0, width])
-        .domain(d3.extent(years));
+        .domain(time_extent);
 
       radius
         .range([3, 9])
