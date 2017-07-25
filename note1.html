@@ -79,7 +79,7 @@
 
   // a flat array of data values in country,year,value format
   // this should be: year, targettype, count
-  var data_values = [];
+  //var data_values = [];
 
   d3.queue()
     .defer(d3.json, "targettype.json")
@@ -92,36 +92,7 @@
 
     console.log(data);
 
-    svg.selectAll(".target-type")
-      .data(data)
-      .enter().append("circle")
-      .attr("r", function(d){
-          var size = d.count / 400;
-          if (size < 2) {
-            return 2;
-          } else {
-            return size;
-          }
-      })
-      .attr("fill", "crimson")
-      // .attr("cx", function(d) {
-      //     var coords = projection([d.long, d.lat])
-      //     return coords[0];
-      // })
-      // .attr("cy", function(d) {
-      //     var coords = projection([d.long, d.lat])
-      //     return coords[1];
-      // })
-      // .on("mouseover", function() { tooltip.style("display", null); })
-      // .on("mouseout", function() { tooltip.style("display", "none"); })
-      // .on("mousemove", function(d) {
-      //     var xPosition = d3.mouse(this)[0] + 5;
-      //     var yPosition = d3.mouse(this)[1] - 5;
-      //     tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
-      //     tooltip.select("text").text("Country: " +  d.country +
-      //     ", Attacks: " + d.attacks + ", Killed: " + d.killed + ", Wounded: " + d.wounded);
-      //
-      // });
+
 
       var data_extent = d3.extent(data.map(function(d) {
         return d.count;
@@ -179,7 +150,58 @@
       //   .attr('transform', 'translate(' + [margin.left, margin.top] + ')')
 
 
+      svg.append("g")
+        .call(yaxis);
 
+      svg.append("g")
+        .attr("transform", "translate(0," + (height+8) + ")")
+        .call(xaxis);
+
+      // svg.append("g")
+      //   .selectAll("circle")
+      //   .data(data)
+      //   .enter().append("circle")
+      //   .attr("r", function(d) { return radius(d.count); })
+      //   .attr("cy", function(d) { return yscale(d.targettype); })
+      //   .attr("cx", function(d) { return xscale(d.year); })
+      //   .attr("fill", function(d) { return color(d.count); })
+
+
+      svg.append("g")
+        .selectAll(".target-type")
+        .data(data)
+        .enter().append("circle")
+        .attr("r", function(d){
+            var size = d.count / 400;
+            if (size < 2) {
+              return 2;
+            } else {
+              return size;
+            }
+        })
+        .attr("fill", "crimson")
+        .attr("cy", function(d) { return yscale(d.targettype); })
+        .attr("cx", function(d) { return xscale(d.year); })
+        .attr("fill", function(d) { return color(d.count); })
+
+        // .attr("cx", function(d) {
+        //     var coords = projection([d.long, d.lat])
+        //     return coords[0];
+        // })
+        // .attr("cy", function(d) {
+        //     var coords = projection([d.long, d.lat])
+        //     return coords[1];
+        // })
+        // .on("mouseover", function() { tooltip.style("display", null); })
+        // .on("mouseout", function() { tooltip.style("display", "none"); })
+        // .on("mousemove", function(d) {
+        //     var xPosition = d3.mouse(this)[0] + 5;
+        //     var yPosition = d3.mouse(this)[1] - 5;
+        //     tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+        //     tooltip.select("text").text("Country: " +  d.country +
+        //     ", Attacks: " + d.attacks + ", Killed: " + d.killed + ", Wounded: " + d.wounded);
+        //
+        // });
 
 
 // **********************************
