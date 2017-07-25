@@ -16,9 +16,6 @@
     path, line {
       stroke: #888;
     }
-    circle {
-
-    }
 
     </style>
   </head>
@@ -50,11 +47,8 @@
 
 
 <script>
-  // properties
 
-  // var margin = {top: 20, right: 30, bottom: 40, left: 150};
-  // var width = 960 - margin.left - margin.right;
-  // var height = 700 - margin.top - margin.bottom;
+  // properties
 
   var margin = { top: 50, left: 150, right: 50, bottom: 50},
     height = 600 - margin.top - margin.bottom,
@@ -69,13 +63,11 @@
 
   var yscale = d3.scalePoint();
   var xscale = d3.scaleLinear();
-  var radius = d3.scaleSqrt();
+  //var radius = d3.scaleSqrt();
   var color = d3.scaleLinear()
     .range(["#2171b5","#6baed6","#bdd7e7","white","#fcae91","#fb6a4a","#cb181d"]);
 
-  // a flat array of data values in country,year,value format
-  // this should be: year, targettype, count
-  //var data_values = [];
+  // Load data: year, targettype, count
 
   d3.queue()
     .defer(d3.json, "targettype.json")
@@ -83,32 +75,17 @@
 
   function ready (error, data) {
 
-  // d3.csv('paidleave-oecd.csv', function(err, data) {
-  //   if (err) { throw(error) }
-
-    console.log(data);
-
-
-
       var data_extent = d3.extent(data.map(function(d) {
         return d.count;
       }));
-      console.log(data_extent);
 
       var time_extent = d3.extent(data.map(function(d) {
         return d.year;
       }));
-      console.log(time_extent);
 
       var targettypes = data.map(function(d) {
         return d.targettype;
       });
-      console.log(targettypes);
-
-      // var years = data.map(function(d) {
-      //   return d.year;
-      // });
-      // console.log(years);
 
       // scales
       yscale
@@ -119,9 +96,9 @@
         .range([0, width])
         .domain(time_extent);
 
-      radius
-        .range([2, 10])
-        .domain(data_extent);
+      // radius
+      //   .range([2, 10])
+      //   .domain(data_extent);
 
       color
         .domain(
@@ -136,16 +113,6 @@
         .tickFormat(function(d) { return d; })
         .scale(xscale);
 
-      // var chart = d3.select("body")
-      //   .append("div");
-
-      // var svg = chart.append('svg')
-      //   .attr('width', width + margin.left + margin.right)
-      //   .attr('height', height + margin.top + margin.bottom)
-      //   .append('g')
-      //   .attr('transform', 'translate(' + [margin.left, margin.top] + ')')
-
-
       svg.append("g")
         .call(yaxis);
 
@@ -153,25 +120,12 @@
         .attr("transform", "translate(0," + (height+8) + ")")
         .call(xaxis);
 
-      // svg.append("g")
-      //   .selectAll("circle")
-      //   .data(data)
-      //   .enter().append("circle")
-      //   .attr("r", function(d) { return radius(d.count); })
-      //   .attr("cy", function(d) { return yscale(d.targettype); })
-      //   .attr("cx", function(d) { return xscale(d.year); })
-      //   .attr("fill", function(d) { return color(d.count); })
-
-
       svg.append("g")
         .selectAll(".target-type")
         .data(data)
         .enter().append("circle")
         .attr("r", function(d){
             var size = d.count / 200;
-            // if (size < 2) {
-            //   return 2;
-            // } else {
               return size;
             // }
         })
