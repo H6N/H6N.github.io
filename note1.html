@@ -185,7 +185,7 @@
             var xPosition = d3.mouse(this)[0] + 5;
             var yPosition = d3.mouse(this)[1] - 5;
             tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
-            tooltip.select("text").text(d.count);
+            tooltip.select("text").text(d.count + " attacks");
 
         });
 
