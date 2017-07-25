@@ -85,6 +85,10 @@ d3.queue()
 function ready (error, data, gtd) {
   var countries = topojson.feature(data, data.objects.countries1).features
 
+  var data_extent = d3.extent(data.map(function(d) {
+    return d.attacks;
+  }));
+
   color
     .domain(
       d3.range(7).map(function(d) {
