@@ -168,13 +168,15 @@ function ready (error, data, gtd) {
     .transition().delay(function(d,i) {return i/50})
     .style('opacity', 0.5);
 
-  svg.append("text")
+  svg.selectAll(".gtd-year")
+        .data(gtd)
+        .append("text") //svg.append
         .attr("x", (width / 2))
         .attr("y", 60 - (margin.top / 2))
         .attr("text-anchor", "middle")
         .style("fill", "black")
         .style("font-size", "72px")
-        .text("1970");
+        .text(d.year); //was "1970"
 
   // svg.selectAll(".year")
   //     .data(gtd)
