@@ -166,15 +166,15 @@ function ready (error, data, gtd) {
         return coords[1];
     })
     .transition().delay(function(d,i) {return i/50})
-    .style('opacity', 0.5) //; ***********
+    .style('opacity', 0.5);
 
-    .append("text")
-    .attr("x", (width / 2))
-    .attr("y", 60 - (margin.top / 2))
+  svg.append("text")
+    .attr("x", 0)
+    .attr("y", length - 60)
     .attr("text-anchor", "middle")
     .style("fill", "black")
-    .style("font-size", "72px")
-    .text(d.year);
+    .style("font-size", "12px")
+    .text("some text here");
 
   // svg.selectAll(".year")
   //     .data(gtd)
