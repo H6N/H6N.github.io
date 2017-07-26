@@ -139,6 +139,15 @@ function ready (error, data, gtd) {
     .enter().append("path")
     .attr("class", "country")
     .attr("d", path)
+    .on("mouseover", function() { tooltip.style("display", null); })
+    .on("mouseout", function() { tooltip.style("display", "none"); })
+    .on("mousemove", function(d) {
+        var xPosition = d3.mouse(this)[0] + 5;
+        var yPosition = d3.mouse(this)[1] - 5;
+        tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+        tooltip.select("text").text(d.country);
+
+    });
 
 // add GTD data, location based on average lat,long for events in each country
   //console.log(gtd);
@@ -173,29 +182,19 @@ function ready (error, data, gtd) {
   //     .text("1970")
       //.text(function(d) {return year});
 
-    // .on("mouseover", function() { tooltip.style("display", null); })
-    // .on("mouseout", function() { tooltip.style("display", "none"); })
-    // .on("mousemove", function(d) {
-    //     var xPosition = d3.mouse(this)[0] + 5;
-    //     var yPosition = d3.mouse(this)[1] - 5;
-    //     tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
-    //     tooltip.select("text").text("Country: " +  d.country +
-    //     ", Attacks: " + d.attacks + ", Killed: " + d.killed + ", Wounded: " + d.wounded);
-    //
-    // });
 
-//add tooltip for gtd circles
-//*** text labels
-    // var tooltip = svg.append("g")
-    //     .attr("class", "tooltip")
-    //     .style("display", "none");
-    //
-    // tooltip.append("text")
-    //     .attr("x", 0)
-    //     .attr("dy", -10)
-    //     .style("text-anchor", "middle")
-    //     .attr("font-size", "12px")
-    //     .attr("font-weight", "bold");
+
+    //add tooltip for countries
+        var tooltip = svg.append("g")
+            .attr("class", "tooltip")
+            .style("display", "none");
+
+        tooltip.append("text")
+            .attr("x", 0)
+            .attr("dy", -10)
+            .style("text-anchor", "middle")
+            .attr("font-size", "12px")
+            .attr("font-weight", "bold");
   //***
     //
     // tooltip.append("rect")
