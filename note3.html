@@ -141,7 +141,7 @@ function ready (error, data, gtd) {
     .attr("d", path)
 
 // add GTD data, location based on average lat,long for events in each country
-  console.log(gtd);
+  //console.log(gtd);
   svg.selectAll(".gtd-circle")
     .data(gtd)
     .enter().append("circle")
@@ -156,9 +156,12 @@ function ready (error, data, gtd) {
         var coords = projection([d.long, d.lat])
         return coords[1];
     })
-    .transition().delay(function(d,i) {return i/50})
-    //.duration(function(d,i) {return 1000})
-    .style('opacity', 0.5);
+    //.transition().delay(function(d,i) {return i/50})
+    //.style('opacity', 0.5);
+
+    svg.selectAll(".gtd-circle")
+      .transition().delay(function(d,i) {return i/50})
+      .style('opacity', 0.5);
 
     // .on("mouseover", function() { tooltip.style("display", null); })
     // .on("mouseout", function() { tooltip.style("display", "none"); })
