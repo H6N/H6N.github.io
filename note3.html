@@ -85,8 +85,8 @@
 
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="note2.html">Map - Where in the world?</a></li>
       <li><a class="active" href="note3.html">Map - Annimated?</a></li>
+      <li><a href="note2.html">Map - Where in the world?</a></li>
       <li><a href="note1.html">Who are they attacking?</a></li>
       <li><a href="page2.html">How do they attack?</a></li>
       <li><a href="page1.html">About the Visualization</a></li>
@@ -156,8 +156,8 @@ function ready (error, data, gtd) {
         var coords = projection([d.long, d.lat])
         return coords[1];
     })
-    .transition().delay(function(d,i) {return i/100})
-    .duration(function(d,i) {return 1000})
+    .transition().delay(function(d,i) {return i/50})
+    //.duration(function(d,i) {return 1000})
     .style('opacity', 0.5);
 
     // .on("mouseover", function() { tooltip.style("display", null); })
