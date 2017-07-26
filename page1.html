@@ -24,6 +24,10 @@ li {
     border-right:1px solid #bbb;
 }
 
+#li01 {
+
+}
+
 li:last-child {
     border-right: none;
 }
@@ -51,6 +55,10 @@ li a:hover:not(.active) {
 
 p {
   font-size: 0.85em;
+}
+
+#p01 {
+    cfont-size: 1em;
 }
 
 .axis path,
@@ -92,14 +100,14 @@ svg {
 <body>
 
 <div style="padding:20px;">
-<p>
+<p id="p01">
 The hybrid structure selected is: Interactive slide show
 The Interactive Slideshow structure has 4 narrated slides:
 <ol>
-  <li>Where in the world have terrorists attacked?</li>
-  <li>Are terrorist attacks getting worse?</li>
-  <li>How do they attack?</li>
-  <li>Who are they attacking?</li>
+  <li id="p01">Where in the world have terrorists attacked?</li>
+  <li id="p01">Are terrorist attacks getting worse?</li>
+  <li id="p01">How do they attack?</li>
+  <li id="p01">Who are they attacking?</li>
 </ol>
 Interaction is incorporated within each slide. (select a country or a region, select a time range)
 This structure allows the user to further explore particular points of the presentation before moving ahead to the next stage of the story.
@@ -109,7 +117,7 @@ This structure allows the author to walk the user through data-dimensions and ma
 This ensures that the user only moves forward in the presentation when he is ready to do so, and allows the user to repeat steps if desired.
 For complex narratives, this format allows the author to draw discrete boundaries between different story segments.
 </p>
-<p>
+<p id="p01">
 layout and design of the <b><u>scenes</u></b> - follow a template for visual consistency, follow an order to best convey the message, and the essay should also discuss the layout and any visual structure in these scenes. (Parameter settings, annotation instances, UI controls.)
 
 application of the annotations - follow a template for visual consistency, should highlight specific data items or trends, and the essay should indicate when they are cleared. (enter(), transition(), exit().)
@@ -122,7 +130,7 @@ User interface events listed, along with a description of how possible user even
 
 <b>The opening scene should include a button, labeled “About the Visualization,”</b> that presents an essay as described above that addresses the following points of the rubric for this assignment.
 </p>
-<p>Data source: <a href="https://www.start.umd.edu/gtd/">Global Terrorism Database (GTD)</a></p>
+<p id="p01">Data source: <a href="https://www.start.umd.edu/gtd/">Global Terrorism Database (GTD)</a></p>
 </div>
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
