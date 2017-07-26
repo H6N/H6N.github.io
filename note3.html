@@ -169,11 +169,11 @@ function ready (error, data, gtd) {
     .style('opacity', 0.5);
 
   svg.append("text")
-    .attr("x", 0)
-    .attr("y", length - 60)
+    .attr("x", width / 2)
+    .attr("y", 60 - (margin.top / 2))
     .attr("text-anchor", "middle")
     .style("fill", "black")
-    .style("font-size", "12px")
+    .style("font-size", "72px")
     .text("some text here");
 
   // svg.selectAll(".year")
