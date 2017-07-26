@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+
+    body {margin:0;}
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #f3f3f3;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        border: 1px solid #e7e7e7;
+    }
+
+    li {
+        float: left;
+        border-right:1px solid #bbb;
+    }
+
+    li:last-child {
+        border-right: none;
+    }
+
+    li a {
+        display: block;
+        color: #666;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+        background-color: #ddd;
+    }
+
+    .active {
+        color: white;
+        background-color: crimson;
+    }
+
+    * {
+      font-family: "Helvetica Neue";
+    }
+
+    p {
+      font-size: 0.85em;
+    }
+
+    .axis path,
+    .axis line {
+      fill: none;
+      stroke: none;
+      shape-rendering: crispEdges;
+    }
+
+    .browser text {
+      text-anchor: end;
+    }
+
+    svg {
+      background: white;
+    }
+
+    .country {
+      fill: #cccccc;
+      stroke: #333333;
+      stroke-width: 0.5;
+    }
+
+    .gtd-label {
+      font-size: 10px;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="note2.html">Map - Where in the world?</a></li>
+      <li><a class="active" href="note3.html">Map - Annimated?</a></li>
+      <li><a href="note1.html">Who are they attacking?</a></li>
+      <li><a href="page2.html">How do they attack?</a></li>
+      <li><a href="page1.html">About the Visualization</a></li>
+    </ul>
+
+    <div>
+      <h3 style="color: crimson"> Where in the world have terrorists attacked? </h3>
+      <p style="color: black"> Point to a circle to see additional details. </p>
+    </div>
+
+  </body>
+</html>
+
+<script>
+
+var margin = { top: 50, left: 50, right: 50, bottom: 50},
+  height = 800 - margin.top - margin.bottom,
+  width = 1300 - margin.left - margin.right;
+
+var svg = d3.select("#map")
+  .append("svg")
+  .attr("height", height + margin.top + margin.bottom)
+  .attr("width", width + margin.right + margin.left)
+  .append("g")
+  .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+// read map file and data file
+
+d3.queue()
+  .defer(d3.json, "world-countries.json")
+  .defer(d3.csv, "gtd_data_locations.csv")
+  .await(ready)
+
+// create projection (from long/lat globe to screen)
+  var projection = d3.geoMercator()
+    .translate( [ width / 2, height / 2 ])
+    .scale(150) // zoom the map in or out
+
+// create a geopath (all coordinated form a shape)
+  var path = d3.geoPath()
+    .projection(projection)
+
+// read data files
+function ready (error, data, gtd) {
+  var countries = topojson.feature(data, data.objects.countries1).features
+
+// create the map
+  svg.selectAll(".country")
+    .data(countries)
+    .enter().append("path")
+    .attr("class", "country")
+    .attr("d", path)
+
+// add GTD data, location based on average lat,long for events in each country
+  console.log(gtd);
+  svg.selectAll(".gtd-circle")
+    .data(gtd)
+    .enter().append("circle")
+    .attr("r", 4)
+    .attr("fill", "crimson")
+    .attr("cx", function(d) {
+        var coords = projection([d.long, d.lat])
+        return coords[0];
+    })
+    .attr("cy", function(d) {
+        var coords = projection([d.long, d.lat])
+        return coords[1];
+    })
+    // .on("mouseover", function() { tooltip.style("display", null); })
+    // .on("mouseout", function() { tooltip.style("display", "none"); })
+    // .on("mousemove", function(d) {
+    //     var xPosition = d3.mouse(this)[0] + 5;
+    //     var yPosition = d3.mouse(this)[1] - 5;
+    //     tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+    //     tooltip.select("text").text("Country: " +  d.country +
+    //     ", Attacks: " + d.attacks + ", Killed: " + d.killed + ", Wounded: " + d.wounded);
+    //
+    // });
+
+//add tooltip for gtd circles
+//*** text labels
+    // var tooltip = svg.append("g")
+    //     .attr("class", "tooltip")
+    //     .style("display", "none");
+    //
+    // tooltip.append("text")
+    //     .attr("x", 0)
+    //     .attr("dy", -10)
+    //     .style("text-anchor", "middle")
+    //     .attr("font-size", "12px")
+    //     .attr("font-weight", "bold");
+  //***
+    //
+    // tooltip.append("rect")
+    //     .attr("width", 400)
+    //     .attr("height", 20)
+    //     .attr("fill", "white")
+    //     .style("opacity", 0.5);
+
+
+
+}
+
+</script>
