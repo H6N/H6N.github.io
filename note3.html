@@ -155,42 +155,35 @@ function ready (error, data, gtd) {
     .style("opacity", 0.2)
 
 
+
+  svg.append("rect")
+      .attr("width", 600)
+      .attr("height", 100)
+      .attr("fill", "white")
+      .attr("transform", "translate( 295, 0)")
+      .style("opacity", 0.7);
+
   svg.append("text")
     .attr("x", width / 2)
     .attr("y", 60 - (margin.top / 2))
     .attr("text-anchor", "middle")
+    .style("fill", "crimson")
+    .style("font-size", "1.5em")
+    .style("margin-top", "1em")
+    .style("margin-bottom", "1em")
+    .style("font-weight", "bold")
+    .text("What is the distribution of terror attacks over the years?");
+
+  svg.append("text")
+    .attr("x", width / 2)
+    .attr("y", 90 - (margin.top / 2))
+    .attr("text-anchor", "middle")
     .style("fill", "black")
-    .style("font-size", "12px")
-    .text("some text here");
-
-    svg.append("rect")
-        .attr("width", 600)
-        .attr("height", 100)
-        .attr("fill", "white")
-        .attr("transform", "translate( 295, 0)")
-        .style("opacity", 0.7);
-
-    svg.append("text")
-      .attr("x", width / 2)
-      .attr("y", 60 - (margin.top / 2))
-      .attr("text-anchor", "middle")
-      .style("fill", "crimson")
-      .style("font-size", "1.5em")
-      .style("margin-top", "1em")
-      .style("margin-bottom", "1em")
-      .style("font-weight", "bold")
-      .text("What is the distribution of terror attacks over the years?");
-
-      svg.append("text")
-        .attr("x", width / 2)
-        .attr("y", 90 - (margin.top / 2))
-        .attr("text-anchor", "middle")
-        .style("fill", "black")
-        .style("font-size", "1em")
-        .style("margin-top", "1em")
-        .style("margin-bottom", "1em")
-        .style("font-weight", "bold")
-        .text("Watch the animation - it will start in a few seconds.");
+    .style("font-size", "1em")
+    .style("margin-top", "1em")
+    .style("margin-bottom", "1em")
+    .style("font-weight", "bold")
+    .text("Watch the animation - it will start in a few seconds.");
 }
 
 </script>
