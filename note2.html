@@ -111,8 +111,8 @@
 <script>
 
 var margin = { top: 50, left: 50, right: 50, bottom: 50},
-  height = 768 - margin.top - margin.bottom, //800
-  width = 1024 - margin.left - margin.right; //1280
+  height = 800 - margin.top - margin.bottom,
+  width = 1280 - margin.left - margin.right;
 
 var svg = d3.select("#map")
   .append("svg")
@@ -204,7 +204,7 @@ function ready (error, data, gtd) {
         .attr("width", 600)
         .attr("height", 100)
         .attr("fill", "gray")
-        .attr("transform", "translate(width/2, 60 - (margin.top/2))")
+        .attr("transform", "translate( 440, 45)")
         .style("opacity", 0.3);
 
     svg.append("text")
