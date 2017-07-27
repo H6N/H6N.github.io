@@ -94,7 +94,7 @@
 
   // properties
   var margin = { top: 150, left: 150, right: 50, bottom: 50},
-    height = 700 - margin.top - margin.bottom,
+    height = 650 - margin.top - margin.bottom,
     width = 1280 - margin.left - margin.right;
 
   var svg = d3.select("#chart")
@@ -224,7 +224,7 @@
 
               svg.append("text")
                 .attr("x", width / 2)
-                .attr("y", -5 - (margin.top / 2))
+                .attr("y",  - (margin.top / 2))
                 .attr("text-anchor", "middle")
                 .style("fill", "black")
                 .style("font-size", "1em")
