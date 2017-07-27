@@ -79,6 +79,10 @@
     </style>
   </head>
   <body>
+    <div>
+      <h3 style="color: crimson"> Where in the world have terrorists attacked 1970-2015? </h3>
+      <p style="color: black"> Point to a circle to see additional details. </p>
+    </div>
     <div id="map"></div>
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="https://d3js.org/topojson.v1.min.js"></script>
@@ -92,10 +96,7 @@
       <li><a href="page1.html">About the Visualization</a></li>
     </ul>
 
-    <div>
-      <h3 style="color: crimson"> Where in the world have terrorists attacked? </h3>
-      <p style="color: black"> Point to a circle to see additional details. </p>
-    </div>
+
 
   </body>
 </html>
@@ -173,7 +174,7 @@ function ready (error, data, gtd) {
     .attr("y", 60 - (margin.top / 2))
     .attr("text-anchor", "middle")
     .style("fill", "black")
-    .style("font-size", "72px")
+    .style("font-size", "12px")
     .text("some text here");
 
   // svg.selectAll(".year")
