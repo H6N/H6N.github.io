@@ -101,7 +101,7 @@
 
   var margin = { top: 50, left: 150, right: 50, bottom: 50},
     height = 800 - margin.top - margin.bottom,
-    width = 1300 - margin.left - margin.right;
+    width = 1280 - margin.left - margin.right;
 
   var svg = d3.select("#chart")
     .append("svg")
@@ -112,7 +112,6 @@
 
   var yscale = d3.scalePoint();
   var xscale = d3.scaleLinear();
-  //var radius = d3.scaleSqrt();
   var color = d3.scaleLinear()
     .range(["#2171b5","#6baed6","#bdd7e7","#dddddd","#fcae91","#fb6a4a","#cb181d"]);
 
@@ -144,10 +143,6 @@
       xscale
         .range([0, width])
         .domain(time_extent);
-
-      // radius
-      //   .range([2, 10])
-      //   .domain(data_extent);
 
       color
         .domain(
