@@ -168,7 +168,8 @@ function ready (error, data, gtd) {
         return coords[1];
     })
     .transition().delay(function(d,i) {return i/25})
-    .style('opacity', 0.2);
+    .style("opacity", 0.2);
+    .style("fill", "darkblue");
 
   svg.append("text")
     .attr("x", width / 2)
@@ -187,16 +188,16 @@ function ready (error, data, gtd) {
 
 
     //add tooltip for countries
-        var tooltip = svg.append("g")
-            .attr("class", "tooltip")
-            .style("display", "none");
-
-        tooltip.append("text")
-            .attr("x", 0)
-            .attr("dy", -10)
-            .style("text-anchor", "middle")
-            .attr("font-size", "12px")
-            .attr("font-weight", "bold");
+        // var tooltip = svg.append("g")
+        //     .attr("class", "tooltip")
+        //     .style("display", "none");
+        //
+        // tooltip.append("text")
+        //     .attr("x", 0)
+        //     .attr("dy", -10)
+        //     .style("text-anchor", "middle")
+        //     .attr("font-size", "12px")
+        //     .attr("font-weight", "bold");
   //***
     //
     // tooltip.append("rect")
