@@ -144,10 +144,6 @@
         .range([0, width])
         .domain(time_extent);
 
-      // radius
-      //   .range([2, 10])
-      //   .domain(data_extent);
-
       color
         .domain(
           d3.range(7).map(function(d) {
@@ -172,11 +168,20 @@
         .selectAll(".target-type")
         .data(data)
         .enter().append("circle")
+        // .attr("r", function(d){
+        //     var size = d.count / 200;
+        //       return size;
+        // })
+        //
         .attr("r", function(d){
-            var size = d.count / 200;
+            var size = Math.sqrt(d.count) / 5;
+            if (size < 2) {
+              return 2;
+            } else {
               return size;
-            // }
-        })
+            })
+
+
         .attr("cy", function(d) { return yscale(d.targettype); })
         .attr("cx", function(d) { return xscale(d.year); })
         .attr("fill", function(d) { return color(d.count); })
