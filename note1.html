@@ -226,5 +226,12 @@
               .style("font-weight", "bold")
               .text("Point to a circle to see additional details about the attacks over the years.");
 
+            svg.append("text")
+              .attr("x", width / 2)
+              .attr("y", 485) //((height + margin.top +25))
+              .attr("text-anchor", "middle")
+              .style("fill", "black")
+              .style("font-size", "0.75em")
+              .text("You may notice that 1993 data is missing from the dataset.");
   }
 </script>
