@@ -202,14 +202,14 @@ function ready (error, data, gtd) {
 
     svg.append("rect")
         .attr("width", 600)
-        .attr("height", 100)
+        .attr("height", 85)
         .attr("fill", "white")
-        .attr("transform", "translate( 295, 0)")
+        .attr("transform", "translate( 295, -10)")
         .style("opacity", 0.7);
 
     svg.append("text")
       .attr("x", width / 2)
-      .attr("y", 60 - (margin.top / 2))
+      .attr("y", 50 - (margin.top / 2))
       .attr("text-anchor", "middle")
       .style("fill", "crimson")
       .style("font-size", "1.5em")
@@ -220,7 +220,7 @@ function ready (error, data, gtd) {
 
       svg.append("text")
         .attr("x", width / 2)
-        .attr("y", 90 - (margin.top / 2))
+        .attr("y", 75 - (margin.top / 2))
         .attr("text-anchor", "middle")
         .style("fill", "black")
         .style("font-size", "1em")
