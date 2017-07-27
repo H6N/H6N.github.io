@@ -149,14 +149,13 @@ function ready (error, data, gtd) {
     .attr("d", path)
 
 // add GTD data, location based on average lat,long for events in each country
-  console.log(gtd);
   svg.selectAll(".gtd-circle")
     .data(gtd)
     .enter().append("circle")
     .attr("r", function(d){
-        var size = d.attacks / 1000;
-        if (size < 2) {
-          return 2;
+        var size = sqrt(d.attacks) / 10;
+        if (size < 1) {
+          return 1;
         } else {
           return size;
         }
