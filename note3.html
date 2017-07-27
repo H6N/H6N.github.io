@@ -157,7 +157,7 @@ function ready (error, data, gtd) {
     .data(gtd)
     .enter().append("circle")
     .attr("r", 2)
-    .attr("fill", "crimson")
+    .attr("fill", "crimzon")
     .attr("opacity", 0)
     .attr("cx", function(d) {
         var coords = projection([d.long, d.lat])
@@ -169,7 +169,7 @@ function ready (error, data, gtd) {
     })
     .transition().delay(function(d,i) {return i/25})
     .style("opacity", 0.2)
-    .style("fill", "darkblue");
+    .exit().transition().remove()
 
   svg.append("text")
     .attr("x", width / 2)
