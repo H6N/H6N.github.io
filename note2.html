@@ -192,12 +192,13 @@ function ready (error, data, gtd) {
         .style("text-anchor", "middle")
         .attr("font-size", "12px")
         .attr("font-weight", "bold");
-    //
-    // tooltip.append("rect")
-    //     .attr("width", 400)
-    //     .attr("height", 20)
-    //     .attr("fill", "white")
-    //     .style("opacity", 0.5);
+    
+    tooltip.append("rect")
+        .attr("width", 400)
+        .attr("height", 20)
+        .attr("fill", "white")
+        .style("opacity", 0.5);
+
     svg.append("text")
       .attr("x", width / 2)
       .attr("y", 60 - (margin.top / 2))
