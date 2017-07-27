@@ -109,6 +109,58 @@ var svg = d3.select("#map")
   .append("g")
   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+// add text to introduce the animation while data loads
+svg.append("rect")
+    .attr("width", 800)
+    .attr("height", 100)
+    .attr("fill", "white")
+    .attr("transform", "translate( 195, 0)")
+    .style("opacity", 0.7);
+
+svg.append("text")
+  .attr("x", width / 2)
+  .attr("y", 50 - (margin.top / 2))
+  .attr("text-anchor", "middle")
+  .style("fill", "crimson")
+  .style("font-size", "1.5em")
+  .style("margin-top", "1em")
+  .style("margin-bottom", "1em")
+  .style("font-weight", "bold")
+  .text("What is the distribution of terror attacks over the years?");
+
+svg.append("text")
+  .attr("x", width / 2)
+  .attr("y", 75 - (margin.top / 2))
+  .attr("text-anchor", "middle")
+  .style("fill", "black")
+  .style("font-size", "1em")
+  .style("margin-top", "1em")
+  .style("margin-bottom", "1em")
+  .style("font-weight", "bold")
+  .text("There have been on average over 3000 terror attacks a year over the past 45 years.");
+
+svg.append("text")
+  .attr("x", width / 2)
+  .attr("y", 95 - (margin.top / 2))
+  .attr("text-anchor", "middle")
+  .style("fill", "black")
+  .style("font-size", "1em")
+  .style("margin-top", "1em")
+  .style("margin-bottom", "1em")
+  .style("font-weight", "bold")
+  .text("There have been over 30,000 terror attacks over the last 3 years alone!");
+
+svg.append("text")
+  .attr("x", width / 2)
+  .attr("y", 115 - (margin.top / 2))
+  .attr("text-anchor", "middle")
+  .style("fill", "black")
+  .style("font-size", "1em")
+  .style("margin-top", "1em")
+  .style("margin-bottom", "1em")
+  .style("font-weight", "bold")
+  .text("Watch the animation and notice the dense areas as data is added for 1970-2015.");
+
 // read map file and data file
 
 d3.queue()
@@ -153,8 +205,6 @@ function ready (error, data, gtd) {
     })
     .transition().delay(function(d,i) {return i/25})
     .style("opacity", 0.2)
-
-
 
   svg.append("rect")
       .attr("width", 800)
