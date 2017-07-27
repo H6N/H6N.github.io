@@ -154,8 +154,8 @@ function ready (error, data, gtd) {
     .enter().append("circle")
     .attr("r", function(d){
         var size = Math.sqrt(d.attacks) / 10;
-        if (size < 1) {
-          return 1;
+        if (size < 2) {
+          return 2;
         } else {
           return size;
         }
