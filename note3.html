@@ -130,36 +130,25 @@ svg.append("text")
 
 svg.append("text")
   .attr("x", width / 2)
-  .attr("y", 75 - (margin.top / 2))
+  .attr("y", 85 - (margin.top / 2))
   .attr("text-anchor", "middle")
   .style("fill", "black")
   .style("font-size", "1em")
   .style("margin-top", "1em")
   .style("margin-bottom", "1em")
   .style("font-weight", "bold")
-  .text("There have been on average over 3000 terror attacks a year over the past 45 years.");
+  .text("> 3000 terror attacks a year on average over the past 45 years, and >30000 the last 3 years alone!.");
 
 svg.append("text")
   .attr("x", width / 2)
-  .attr("y", 95 - (margin.top / 2))
+  .attr("y", 110 - (margin.top / 2))
   .attr("text-anchor", "middle")
   .style("fill", "black")
   .style("font-size", "1em")
   .style("margin-top", "1em")
   .style("margin-bottom", "1em")
   .style("font-weight", "bold")
-  .text("There have been over 30,000 terror attacks over the last 3 years alone!");
-
-svg.append("text")
-  .attr("x", width / 2)
-  .attr("y", 115 - (margin.top / 2))
-  .attr("text-anchor", "middle")
-  .style("fill", "black")
-  .style("font-size", "1em")
-  .style("margin-top", "1em")
-  .style("margin-bottom", "1em")
-  .style("font-weight", "bold")
-  .text("Watch the animation and notice the dense areas as data is added for 1970-2015.");
+  .text("Watch the animation and notice the dense areas as data is added for 1970->2015.");
 
 // read map file and data file
 
@@ -224,38 +213,27 @@ function ready (error, data, gtd) {
     .style("font-weight", "bold")
     .text("What is the distribution of terror attacks over the years?");
 
-  svg.append("text")
-    .attr("x", width / 2)
-    .attr("y", 75 - (margin.top / 2))
-    .attr("text-anchor", "middle")
-    .style("fill", "black")
-    .style("font-size", "1em")
-    .style("margin-top", "1em")
-    .style("margin-bottom", "1em")
-    .style("font-weight", "bold")
-    .text("There have been on average over 3000 terror attacks a year over the past 45 years.");
+    svg.append("text")
+      .attr("x", width / 2)
+      .attr("y", 85 - (margin.top / 2))
+      .attr("text-anchor", "middle")
+      .style("fill", "black")
+      .style("font-size", "1em")
+      .style("margin-top", "1em")
+      .style("margin-bottom", "1em")
+      .style("font-weight", "bold")
+      .text("> 3000 terror attacks a year on average over the past 45 years, and >30000 the last 3 years alone!.");
 
-  svg.append("text")
-    .attr("x", width / 2)
-    .attr("y", 95 - (margin.top / 2))
-    .attr("text-anchor", "middle")
-    .style("fill", "black")
-    .style("font-size", "1em")
-    .style("margin-top", "1em")
-    .style("margin-bottom", "1em")
-    .style("font-weight", "bold")
-    .text("There have been over 30,000 terror attacks over the last 3 years alone!");
-
-  svg.append("text")
-    .attr("x", width / 2)
-    .attr("y", 115 - (margin.top / 2))
-    .attr("text-anchor", "middle")
-    .style("fill", "black")
-    .style("font-size", "1em")
-    .style("margin-top", "1em")
-    .style("margin-bottom", "1em")
-    .style("font-weight", "bold")
-    .text("Watch the animation and notice the dense areas as data is added for 1970-2015.");
+    svg.append("text")
+      .attr("x", width / 2)
+      .attr("y", 110 - (margin.top / 2))
+      .attr("text-anchor", "middle")
+      .style("fill", "black")
+      .style("font-size", "1em")
+      .style("margin-top", "1em")
+      .style("margin-bottom", "1em")
+      .style("font-weight", "bold")
+      .text("Watch the animation and notice the dense areas as data is added for 1970->2015.");
 }
 
 </script>
