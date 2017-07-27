@@ -191,7 +191,7 @@ function ready (error, data, gtd) {
         .attr("height", 20)
         .attr("fill", "white")
         .attr("transform", "translate(-200,-23)")
-        .style("opacity", 0.5);
+        .style("opacity", 0.3);
 
     tooltip.append("text")
         .attr("x", 0)
@@ -203,9 +203,9 @@ function ready (error, data, gtd) {
     svg.append("rect")
         .attr("width", 400)
         .attr("height", 50)
-        .attr("fill", "white")
+        .attr("fill", "gray")
         .attr("transform", "translate((width - 400)/2, 60 - (margin.top/2))")
-        .style("opacity", 0.5);
+        .style("opacity", 0.3);
 
     svg.append("text")
       .attr("x", width / 2)
