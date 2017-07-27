@@ -77,28 +77,46 @@ svg {
   background: #efefef;
 }
 
-.country {
-  fill: #cccccc;
-  stroke: #333333;
-  stroke-width: 0.5;
+
+.note {
+	background-color: #f6f6f6;
+	border: 1px solid #E3E3E3;
+	border-radius: 4px 4px 4px 4px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+	margin-bottom: 20px;
+	min-height: 20px;
+	padding: 40px 19px 19px 45px;
+	position: relative;
 }
 
-.selected{
-  fill: yellow;
+.note:before {
+	content: 'Note';
+	border-right: 1px solid #e3e3e3;
+	border-bottom: 1px solid #e3e3e3;
+	border-bottom-right-radius: 4px;
+	background-color: #fff;
+	color: crimson;
+	font-weight: bold;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding: 4px 10px 4px 10px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 }
-
-.clicked{
-  fill: red;
-}
-
-.city-label{
-  font-size: 10px
-}
-
 </style>
 </head>
 
 <body>
+
+<div class - "note">
+  :: before
+  <dl>
+    <dt>title</dt>
+    <dd>text</dd>
+    <dt>title</dt>
+    <dd>text</dd>
+  </dl>
+</div>
 
 <div style="padding:20px;">
 <p id="p01">
