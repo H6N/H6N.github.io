@@ -153,7 +153,7 @@ function ready (error, data, gtd) {
     .data(gtd)
     .enter().append("circle")
     .attr("r", function(d){
-        var size = sqrt(d.attacks) / 10;
+        var size = Math.sqrt(d.attacks) / 10;
         if (size < 1) {
           return 1;
         } else {
