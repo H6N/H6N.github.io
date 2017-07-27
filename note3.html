@@ -68,7 +68,7 @@
     }
 
     .country {
-      fill: #cccccc;
+      fill: #f6f6f6;
       stroke: #333333;
       stroke-width: 0.5;
     }
@@ -79,11 +79,7 @@
     </style>
   </head>
   <body>
-    <div>
-      <h3 style="color: crimson"> Where in the world have terrorists attacked 1970-2015? </h3>
-      <p style="color: black"> Point to a circle to see additional details. </p>
 
-    </div>
     <div id="map"></div>
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="https://d3js.org/topojson.v1.min.js"></script>
@@ -96,8 +92,6 @@
       <li><a href="page2.html">How do they attack?</a></li>
       <li><a href="page1.html">About the Visualization</a></li>
     </ul>
-
-
 
   </body>
 </html>
@@ -141,18 +135,8 @@ function ready (error, data, gtd) {
     .enter().append("path")
     .attr("class", "country")
     .attr("d", path)
-    // .on("mouseover", function() { tooltip.style("display", null); })
-    // .on("mouseout", function() { tooltip.style("display", "none"); })
-    // .on("mousemove", function(d) {
-    //     var xPosition = d3.mouse(this)[0] + 5;
-    //     var yPosition = d3.mouse(this)[1] - 5;
-    //     tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
-    //     tooltip.select("text").text(d.country);
-    //
-    // });
 
 // add GTD data, location based on average lat,long for events in each country
-  //console.log(gtd);
   svg.selectAll(".gtd-circle")
     .data(gtd)
     .enter().append("circle")
@@ -179,35 +163,34 @@ function ready (error, data, gtd) {
     .style("font-size", "12px")
     .text("some text here");
 
-  // svg.selectAll(".year")
-  //     .data(gtd)
-  //     .enter().append("text")
-  //     .text("1970")
-      //.text(function(d) {return year});
+    svg.append("rect")
+        .attr("width", 600)
+        .attr("height", 100)
+        .attr("fill", "white")
+        .attr("transform", "translate( 295, 0)")
+        .style("opacity", 0.7);
 
+    svg.append("text")
+      .attr("x", width / 2)
+      .attr("y", 60 - (margin.top / 2))
+      .attr("text-anchor", "middle")
+      .style("fill", "crimson")
+      .style("font-size", "1.5em")
+      .style("margin-top", "1em")
+      .style("margin-bottom", "1em")
+      .style("font-weight", "bold")
+      .text("What is the distribution of terror attacks over the years?");
 
-
-    //add tooltip for countries
-        // var tooltip = svg.append("g")
-        //     .attr("class", "tooltip")
-        //     .style("display", "none");
-        //
-        // tooltip.append("text")
-        //     .attr("x", 0)
-        //     .attr("dy", -10)
-        //     .style("text-anchor", "middle")
-        //     .attr("font-size", "12px")
-        //     .attr("font-weight", "bold");
-  //***
-    //
-    // tooltip.append("rect")
-    //     .attr("width", 400)
-    //     .attr("height", 20)
-    //     .attr("fill", "white")
-    //     .style("opacity", 0.5);
-
-
-
+      svg.append("text")
+        .attr("x", width / 2)
+        .attr("y", 90 - (margin.top / 2))
+        .attr("text-anchor", "middle")
+        .style("fill", "black")
+        .style("font-size", "1em")
+        .style("margin-top", "1em")
+        .style("margin-bottom", "1em")
+        .style("font-weight", "bold")
+        .text("Watch the animation - it will start in a few seconds.");
 }
 
 </script>
