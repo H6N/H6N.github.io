@@ -190,7 +190,7 @@ function ready (error, data, gtd) {
         .attr("width", 400)
         .attr("height", 20)
         .attr("fill", "white")
-        .attr("transform", "translate(-200,-22)")
+        .attr("transform", "translate(-200,-23)")
         .style("opacity", 0.5);
 
     tooltip.append("text")
@@ -200,6 +200,12 @@ function ready (error, data, gtd) {
         .attr("font-size", "12px")
         .attr("font-weight", "bold");
 
+    svg.append("rect")
+        .attr("width", 400)
+        .attr("height", 50)
+        .attr("fill", "white")
+        .attr("transform", "translate((width - 400)/2, 60 - (margin.top/2))")
+        .style("opacity", 0.5);
 
     svg.append("text")
       .attr("x", width / 2)
