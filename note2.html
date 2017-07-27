@@ -161,6 +161,7 @@ function ready (error, data, gtd) {
         }
     })
     .attr("fill", "crimson")
+    .style("stroke", "#f6f6f6")
     .attr("cx", function(d) {
         var coords = projection([d.long, d.lat])
         return coords[0];
